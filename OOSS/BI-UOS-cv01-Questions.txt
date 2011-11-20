@@ -1,0 +1,55 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-cv01-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-cv01-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: Display the information about command "man" from UNIX manual.
+QE
+
+S-01:  man man
+
+SE
+#----------------------------------------
+Q-02-en: What are doing commands ls, date, finger, hostname, id?
+QE
+
+S-02: ls - list contents of directory
+      date - write the date and time
+      finger - display information about local and remote users
+      hostname - set or print name of current host system
+      id - return user identity
+SE
+#----------------------------------------
+Q-03-en: What is "passwd" in UNIX?
+QE
+
+S-03: man -l passwd  
+      1) command passwd  (see man -s 1 passwd)
+      2) configuration file (see man -s 4 passwd)
+SE
+#----------------------------------------
+Q-04-en: What is "kill" in UNIX?
+QE
+
+S-04: man -l kill  
+      1) command kill (see man -s 1 passwd)
+      2) system call (see man -s 4 passwd)
+SE
+#----------------------------------------
+Q-05-en: Use program /bin/less as Unix manual viewer.
+QE
+
+S-05: export PAGER='/bin/less'
+SE
+
+#----------------------------------------
+Q-06-en: Login to remote server fray3.fit.cvut.cz as user XYZ.
+         Verify that you are working on fray3.fit.cvut.cz under idetity XYZ.
+QE
+
+S-06:  ssh XYZ@fray3.fit.cvut.cz
+	   hostname
+       id
+SE
+#----------------------------------------

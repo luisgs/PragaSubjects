@@ -1,0 +1,2 @@
+Zadejte limit:
+220, 284

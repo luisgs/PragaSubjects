@@ -1,0 +1,104 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-cv02-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-cv02-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: Write the current date and time by the command "date" in the following format:
+
+         Today is Sunday, 3.10.2010 (week 40)
+         The time is 17:13:57 [CEST].
+
+        Hint:
+        man date
+        export LC_TIME=C
+QE
+
+S-01:  date '+Today is %A, %e.%m.%Y (week %W)%nThe time id %H:%M:%S [%Z].'
+SE
+#----------------------------------------
+Q-02-en: How many users are working on server fray1.fit.cvit.cz?
+		 Hint: use commands "finger" and "wc"
+QE
+
+S-02: ssh USER@fray1.fit.cvut.cz "finger -f | wc -l"
+SE
+
+#----------------------------------------
+Q-03-en: Run command "xeyes" in backround from shell.
+QE
+
+S-03: xeyes &
+SE
+#----------------------------------------
+Q-04-en: Create the following empty files 
+          a.c  a.cpp  a.txt  b.c  b.cpp  b.txt  c.c  c.cpp  c.txt
+         by one commad "touch".
+QE
+
+S-04: touch {a,b,c}.{c,txt,cpp} 
+SE
+#----------------------------------------
+Q-05-en: List the content of your home direcory.
+
+		 Hint: use command "ls"
+QE
+
+S-05: ls -a ~
+SE
+#----------------------------------------
+Q-06-en: Display the path to the home direcory of user "trdlicka" on server fray1.fit.cvut.cz.
+      
+         Hint: use command "echo"
+QE
+
+S-06:  ssh USER@fray1.fit.cvut.cz "echo ~trdlicka"
+SE
+#----------------------------------------
+Q-07-en: Display the content of the shell variable "PATH".
+QE
+
+S-07:  echo $PATH
+SE
+#----------------------------------------
+Q-08-en: What kind of information is saved in the shell variable PWD?
+QE
+
+S-08:  PWD = current working directory
+SE
+#----------------------------------------
+Q-09-en: What happens if you execute the following comands a why?
+
+          echo PWD is $PWD
+          echo PWD\ is\ \ \ $PWD
+          echo ”PWD     is     $PWD”
+          echo ”\$PWD   is     $PWD”
+          echo '\$PWD   is     $PWD'
+
+QE
+
+S-09:  Try!
+SE
+#----------------------------------------
+Q-10-en: What happens if you execute the following comands a why?
+
+          cmd=who
+          echo cmd
+          echo $cmd
+          echo ”$cmd”
+          echo '$cmd'
+          echo `$cmd`
+QE
+
+S-10:  Try!
+SE
+#----------------------------------------
+Q-11-en: How protect output format of the following commands
+
+          cmd=who ; echo `$cmd` 
+QE
+
+S-11:  cmd=who ; echo "`$cmd`"
+SE
+#----------------------------------------
+

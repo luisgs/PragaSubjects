@@ -1,0 +1,94 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-cv05-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-cv05-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: How many lines are in the file /etc/passwd?
+         Use the command wc and redirect the standard input. 
+QE
+
+S-01:  wc -l < /etc/passwd
+SE
+#----------------------------------------
+Q-02-en: How many users are logged in on the fray1.fit.cvut.cz?
+QE
+
+S-02: finger -f | wc -l
+SE
+#----------------------------------------
+Q-03-en: Create a pipe of commands which displays on the terminal 
+         the number of files and subdirectories that are located in the directory /etc 
+         and in the same time it saves names of these files and subdirectories 
+         into the file ~/list.txt.
+QE
+
+S-03:    ls /etc/ | tee ~list.txt | wc -l
+SE
+#----------------------------------------
+Q-04-en: Redirect the standard output to the file ~/out.txt and 
+         standard error output to the file ~/error.txt for the following command:
+         
+            ls -la /
+QE    
+
+S-04:       ls -la / > ~/out.txt 2> ~/error.txt
+SE
+#----------------------------------------
+Q-05-en: How many lines are writen on the standard output by the command "find /ect"? 
+QE
+
+S-05:     find /etc | wc -l
+SE
+#----------------------------------------
+Q-06-en: How many lines are writen on the standard error output by the command "find /ect"? 
+QE
+
+S-06:  find /etc > /dev/null 2> ~/error.txt ; wc -l ~/error.txt
+
+       or
+
+       find /etc 2>&1 >/dev/null | wc -l
+SE
+#----------------------------------------
+Q-07-en: Display the sorted list of the names of users which 
+         are logged in on the fray1.fit.cvut.cz.
+QE
+
+S-07: finger -f | cut -d' ' -f1 | sort
+SE
+#----------------------------------------
+Q-08-en: Display the sorted list of login names of users 
+         which have accout on fray1.fit.cvut.cz.
+         
+         Hint: use command "ypcat passwd"
+QE
+
+S-08:    ypcat passwd | cut -d: -f1 | sort
+SE
+#----------------------------------------
+Q-09-en: Which user (display his name and surname = the 5th collumn)
+         has the highest user ID (the 3rd collumn)?
+
+QE
+
+S-09:    ypcat passwd | sort -k3,3 | tail -1 | cut -d":" -f5
+SE
+#----------------------------------------
+Q-10-en: Display the table/statistic "the number of processes per user",
+         where the first collumn is the number of processes running by the user
+         and the second collumn is the user name. 
+ 
+         Hint: use command "ps -e -o user"
+QE
+
+S-10:    ps -e -o user | sort | uniq -c | sort -k1,1n
+SE
+#----------------------------------------
+Q-11-en:  Display only the names of the 10 largest files in the directory /usr/bin.
+QE
+
+S-11:     ls -l /usr/bin/ | sort -k 5,5nr  | head -10 | tr -s ' ' | cut -d" " -f9
+SE
+#----------------------------------------
+

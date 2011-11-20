@@ -1,0 +1,104 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-cv03-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-cv03-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: Define local shell variable A and set its value to "AAA".
+QE
+
+S-01:  A="AAA"
+SE
+#----------------------------------------
+Q-02-en: Define gloal (enviromental) shell variable B and set its value to "BBB".
+QE
+
+S-02: export B="BBB"
+SE
+#----------------------------------------
+Q-03-en: How do you display values of the variales A and B.
+QE
+
+S-03: echo "A=$A  B=$B"
+SE
+#----------------------------------------
+Q-04-en: What is the diference between local and global shell variable.
+QE
+
+S-04: local variable is defined only in the current instace of shell
+      global vriable is defined in the current instance of shell and in it chidlren processes
+SE
+#----------------------------------------
+Q-05-en: List all (global+local) shell variables defined in the current shell.
+QE
+
+S-05: set
+SE
+#----------------------------------------
+Q-06-en: How many shell variables is defined in the current shell.
+      
+         Hint: use command "wc"
+QE
+
+S-06:  set | wc -l    
+SE
+#----------------------------------------
+Q-07-en: List only global shell variables defined in the current shell.
+QE
+
+S-07:  export
+SE
+#----------------------------------------
+Q-08-en: Undefined shell variable A in the current shell.
+QE
+
+S-08:  unset A
+SE
+#----------------------------------------
+Q-09-en: What is shell alias?
+QE
+
+S-09: An alias is a shorthand notation to enable you to customize and abbreviate commands.
+SE
+#----------------------------------------
+Q-10-en: How many aliases is defined in your shell?
+QE
+
+S-10:  alias | wc -l
+SE
+#----------------------------------------
+Q-11-en: Setup alias hello that display greeting "Hello World!"
+QE
+
+S-11:  alias hello='echo "\"Hello Wolrd!\""'
+SE
+#----------------------------------------
+Q-12-en: Setup the following alias:
+
+            alias ls='echo "Sorry. No permission"' 
+         
+         How dou you list the directory content by command ls now?
+QE
+
+S-12:  \ls           temporary cancellation of alias
+       unalias ls    permanent cancellation of alias
+SE
+#----------------------------------------
+Q-13-en: Modify your shell prompt to display the following information:
+
+            Hello Mr. USER_NAME>
+
+         Modify your shell prompt to display the original information:
+
+            USER_NAME@HOST_NAME:WORKING_DIRECTORY>
+
+         Hint: search shell variable PS1, USER, HOSTNAME and PWD in Unix manual of bash
+               
+QE
+
+S-13:  export PS1="Hello Mr. $USER>"
+       export PS1='$USER@$HOSTNAME:$PWD> '
+       export PS1='\u@\h:\w> '
+SE
+#----------------------------------------
+

@@ -1,0 +1,138 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-cv04-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-cv04-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: What is the size of the root file system on server fray1.fit.cvut.cz?
+QE
+
+S-01:  Use command: df -h
+SE
+#----------------------------------------
+Q-02-en: When the root file system was mounted to directory /.
+QE
+
+S-02: Use command: mount 
+SE
+#----------------------------------------
+Q-03-en: How many free space is on the file system where your home directory 
+         (on server fray1.fit.cvut.cz) is located?
+QE
+
+S-03: Use commands: echo $HOME + df -h
+SE
+#----------------------------------------
+Q-04-en: On which server the file system where your home directory 
+         (from server fray1.fit.cvut.cz) is located? What its name and IP address?
+
+         Hint: for IP address use command ping
+QE
+
+S-04: Use commands:  df -h and ping -a s 
+SE
+#----------------------------------------
+Q-05-en: Who is the owner of the file /etc/shadow? 
+QE
+
+S-05: Use command: ls -l /etc/passwd
+SE
+#----------------------------------------
+Q-06-en: What is the size of the file /etc/passwd? 
+QE
+
+S-06:  Use command: ls -l /etc/passwd
+SE
+#----------------------------------------
+Q-07-en: Which access permitions are set to the your home directory?
+QE
+
+S-07: Use command: ls -ld ~
+SE
+#----------------------------------------
+Q-08-en: Which access permitions are set to the directory /bin?
+QE
+
+S-08: Use command: ls -lLd /bin
+SE
+#----------------------------------------
+Q-09-en: What i-node are assigned to files /etc/init.d/apache, 
+         /etc/init.d/appserv, /etc/rc0.d/K16apache, /etc/rc3.d/S50apache?
+QE
+
+S-09: Use command: ls -i file_name
+SE
+#----------------------------------------
+Q-10-en: How to stop command: ls -Rl / 
+QE
+
+S-10:  Press the key: CTRL and C
+SE
+#----------------------------------------
+Q-11-en: How many kilobytes does your home directory occupy?
+QE
+
+S-11: Use command: du -ks ~
+SE
+#----------------------------------------
+Q-12-en: How many space does every subdirectory in /etc ocuppy?        
+QE
+
+S-12:  Use command: du -ks /etc/*
+SE
+#----------------------------------------
+Q-13-en: Determine file content type of the following files:     
+           /usr/bin/at
+           /usr/sbin/shutdown
+           /etc/nsswitch.conf
+           /dev/zero               
+QE
+
+S-13:  Use command: ls -l file_name
+SE
+#----------------------------------------
+Q-14-en: How to display the content of the following files:
+            /usr/bin/at
+            /usr/sbin/shutdown
+            /etc/nsswitch.conf
+            /dev/zero
+QE
+
+S-14:  Use command: file and then cat/less or od/strings 
+SE
+#----------------------------------------
+Q-15-en: What are doing the folowing commands?
+
+    mkdir seminar3
+    cp /etc/passwd ~/my_passwd
+    cp ~/.bashrc my ~/my_bashrc
+    mv my_passwd my_bashrc seminar3
+    cp -r seminar3 seminar4
+    cp -r seminar3 seminar4 
+    mv seminar3 seminar4 
+    \mv seminar3/my_profile seminar4/my_profile
+    rmdir seminar4
+    rm -r seminar3
+    \rm -r semnar4
+QE
+
+S-15:  Try the commands!
+SE
+#----------------------------------------
+Q-16-en:  Copy file /etc/passwd to your home directory 
+          and in this directory create:
+
+           1) hard link HL-passwd to file ~/passwd,
+           2) hard link HL-group to file /etc/group,
+           3) soft link SL-passwd to file ~/passwd,
+           4) soft link SL-group to file /etc/group,
+           5) hard link HL-etc to directory /etc,
+           6) soft link SL-etc to directory /etc.
+ 
+S-16:  Use commands: ln origin new_name
+                     ln -s origin new_name
+SE
+#----------------------------------------
+
+
+
