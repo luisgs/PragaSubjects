@@ -1,0 +1,177 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-c07-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-c07-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: Use command awk and from the output of the command  "ps -ef" 
+         display only information about processes which are running 
+         under the user root.
+QE
+
+S-01:  ps -ef | nawk '/root/{print $0}'
+       ps -ef | nawk '{ if ($1 == "root") {print $0}; }'
+SE
+#----------------------------------------
+Q-02-en: The file d.txt has the following content:
+    
+          1  23  45  78  89   76
+          0   3   4   9  12    0
+         25  15  23   0   0    0
+         78   0  12  21   7   95
+        
+         Change the oder of columns such that the column i (0<= i< n)  
+         will be display line n-i (reverse column order).
+
+         Example:
+         76      89      78      45      23       1       
+          0      12       9       4       3       0       
+          0       0       0      23      15      25      
+          95      7      21      12       0      78    
+QE
+
+S-02:  nawk  '{ for (i=NF; i>0; i--) printf("%d\t", $i); printf("\n"); }' d.txt
+SE
+#----------------------------------------
+Q-03-en: The file d.txt has the following content:
+    
+          1  23  45  78  89   76
+          0   3   4   9  12    0
+         25  15  23   0   0    0
+         78   0  12  21   7   95
+        
+         For each line display the number of occurrence of the value "0".
+QE
+
+S-03:    nawk  '{ c=0; for (i=1; i<=NF; i++) if ( $i == 0 ) c++;  printf("%s - %d\n", $0, c) }' d.txt
+SE
+
+#----------------------------------------
+Q-04-en: The file d.txt has the following content:
+    
+          1  23  45  78  89   76
+          0   3   4   9  12    0
+         25  15  23   0   0    0
+         78   0  12  21   7   95
+        
+         Display only the line which contains the maximum number of value "0".
+QE
+
+S-04:   nawk -f p1.awk d.txt 
+
+        Program file p1.awk:
+
+BEGIN {
+  max=0;
+  line="";
+}
+{
+  c=0; 
+
+  for (i=1; i<=NF; i++) if ( $i == 0 ) c++;
+  if ( c > max ) { max=c; line=$0; }; 
+}
+END {
+  printf("%s - %d\n", line, max);
+}
+
+SE
+
+#----------------------------------------
+Q-05-en: Use the output of the command "ps -ef" and by the command nawk
+         display only processes which are running under the user "root".
+
+QE
+
+S-05:   ps -ef | nawk '/ *root / {print $8}'  
+SE
+
+#----------------------------------------
+Q-06-en: Use the output of the command "ps -eyo user,rss,pid,comm" and 
+         by the command nawkdisplay the following statistics about processes 
+         which are running under the user "root":
+
+Process statistic:
+------------------
+    root    0     0 sched
+    root    0     5 zpool-rpool
+    root 1680     1 /sbin/init
+    ...
+    root 1792  9676 /opt/SUNWut/lib/utstoraged
+    root 4384 17584 /usr/lib/ssh/sshd
+------------------
+Processes use 885360 kB RSS
+
+QE
+
+S-06:  ps -eyo user,rss,pid,comm | nawk -f p2.awk
+
+        Program file p2.awk:
+
+BEGIN {
+   printf("Process statistic:\n");
+   printf("------------------\n");
+}
+/ *root/ { 
+  c=c+$2; 
+  print $0;
+   
+}
+END {
+   printf("------------------\n"); 
+   printf("Processes use %d kB RSS\n", c); 
+}
+ 
+SE
+
+#----------------------------------------
+Q-07-en: Print the same statistic like in previous question,
+         but for the given user. 
+         Assume that the user name is saved in shell variable NAME.
+
+         Example:  export NAME="root"
+ 
+Process statistic about user root:
+---------------------------------------
+    root    0     0 sched
+    root    0     5 zpool-rpool
+    ...
+    root 1680     1 /sbin/init
+    root 4384 17584 /usr/lib/ssh/sshd
+----------------------------------------
+Processes use 908984 kB RSS
+
+QE
+
+S-07:    ps -eyo user,rss,pid,comm | nawk -v user="$NAME" -f p3.awk
+
+         Program file p3.awk:
+
+BEGIN {
+   printf("Process statistic about user %s:\n", user);
+   printf("---------------------------------------\n");
+}
+{
+  if ( $1 == user ) { 
+    c=c+$2;
+    print $0;
+  };
+}
+END {
+   printf("----------------------------------------\n");
+   printf("Processes use %d kB RSS\n", c);
+}
+
+SE
+#----------------------------------------
+Q-08-en: Use commands ypcat and awk. Display the name of the regular user 
+         with the highest UID. Regular users have the UID greater than 99 
+         and less than  6000.
+QE
+
+S-08:  ypcat passwd | nawk -F: '{ if (($3 > 99) && ($3<60000) && ($3 > max)) user=$1} END { print user }'
+
+SE
+
+#----------------------------------------
+

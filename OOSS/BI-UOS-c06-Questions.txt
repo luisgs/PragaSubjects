@@ -1,0 +1,84 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]/,/^QE/p' BI-UOS-cv06-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-cv06-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+Q-01-en: What are doing the following commands:
+
+          ls /home/* 2>/dev/null | grep novak
+          echo $PATH | tr '[:]' '[\n]' | grep -v bin
+          man ls | grep -i command
+          grep -l start /etc/* 2>/dev/null
+          grep -c example /usr/man/man1/grep.1
+QE
+
+S-01:  Try the commands and explain the output!
+SE
+#----------------------------------------
+Q-02-en: What will be diaply by the following commands?
+
+         cd /usr/dict
+
+         grep o words
+         grep oo words
+         grep oo$ words
+         grep ^oo words
+         grep o.o words
+         grep 'o.*o' words
+         grep '^o.*o$' words
+QE
+
+
+S-02: Try the commands and explain the output!
+SE
+#----------------------------------------
+Q-03-en: What is the diference between the following commands?
+
+         grep 'o*' words
+         grep 'oo*' words
+         grep '[^o]' words
+         grep -v o words
+QE
+
+S-03:    Try the commands and explain the output!
+SE
+
+#----------------------------------------
+Q-04-en: Use the output of the command "ps -ef" and
+         determine how many processes are running under
+         the identity of user "root"
+QE
+
+S-04:   ps -e -f | grep -c "^ *root"   
+SE
+
+#----------------------------------------
+Q-05-en: Use the output of the command "ps -eo pid,user,comm" and
+         determine how many times the program sshd is running?
+QE
+
+S-05:   ps -eo user,pid,comm | grep -c "/sshd$"  
+SE
+
+#----------------------------------------
+Q-06-en: Use the output of the command "ps -eo pid,user,comm" and
+         determine how many times the program sshd is running 
+         under the identity of the user XYZ?
+QE
+
+S-06:  ps -eo pid,user,comm | grep  -c "XYZ  *[^ ]*/sshd$"    
+SE
+
+#----------------------------------------
+Q-07-en: Use the output of the command "ypcat passwd" and 
+         how many students have the account on the server fray1.fit.cvut.cz.
+         
+         Hint: student's account has the flag "student at the end od the fifth collumn).
+QE
+
+S-07:    ypcat passwd | grep -c 'student:[^:]*:[^:]*$'
+SE
+
+#----------------------------------------
+

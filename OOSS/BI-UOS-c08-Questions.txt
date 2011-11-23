@@ -1,0 +1,310 @@
+# How to display all EN questions:
+# sed -n '/^Q-[0-9][0-9]-en/,/^QE/p' BI-UOS-c08-Questions.txt  | sed 's/^QE//'
+#
+# How to display all solutions:
+# sed -n '/^S-[0-9][0-9]/,/^SE/p' BI-UOS-c08-Questions.txt  | sed 's/^SE//'
+#----------------------------------------
+
+# --------------  awk --------------
+
+Q-01-cz: Z vystupu prikazu ps -eo user,rss,comm pomoci prikazu awk vypiste: 
+         root nproc=pocet_spustenych_procesu rss=velikost_alokovane_pameti?
+QE
+
+Q-01-en:  Print the number of processes running under the efective identity "root"
+          and the number of memory (RSS) allocated by these processes.
+          (Hint: use command awk and output of the command ps -eo user,rss,comm)
+QE
+
+S-01: ps -eo user,rss,comm | awk -f ps1a.awk  
+      or
+      ps -eo user,rss,comm | awk -f ps1b.awk
+
+      Program file ps1a.awk:
+
+/root/{
+  nproc=nproc+1
+  rss=rss+$2;
+}
+END {
+  printf("root: nproc=%d rss=%d KB\n", nproc, rss)
+}
+
+      Program file ps1b.awk:
+
+BEGIN {
+  user="root";
+  nproc=0;
+  rss=0;
+}
+{
+  if ( $1 == user )
+  {
+    nproc=nproc+1;
+    rss=rss+$2;
+  }
+}
+END {
+  printf("%s: nproc=%d rss=%d KB\n", user, nproc, rss)
+  printf("\n");
+}
+
+
+SE
+
+#----------------------------------------
+Q-02-cz: Z vystupu prikazu ps -eo user,rss,comm pomoci prikazu awk vypiste:
+         root nproc=pocet_spustenych_procesu rss=velikost_alokovane_pameti 
+         list=seznam_procesu?
+QE
+
+Q-02-en:  Print the number of processes running under the efective identity "root",
+          number of memory (RSS) allocated by these processes and the list of these processes. 
+         (Hint: use command awk and output of command ps -eo user,rss,comm)
+QE
+
+S-02:       ps -eo user,rss,comm | awk -f ps2.awk
+
+          Program file ps2.awk:
+BEGIN {
+  user="root";
+  nproc=0;
+  rss=0;
+}
+{
+  if ( $1 == user )
+  {
+    proclist[nproc]=$3;
+    nproc=nproc+1;
+    rss=rss+$2;
+  }
+}
+END {
+  printf("%s: nproc=%d rss=%d KB\n", user, nproc, rss)
+  printf("        proclist: ");
+  for (i=0; i<nproc; i++) {
+    printf("%s, ", proclist[i]);
+  };
+  printf("\n");
+}
+
+SE
+
+#----------------------------------------
+Q-03-cz: Z vystupu prikazu ps -eo user,rss,comm pomoci prikazu awk vypiste 
+         pro uzivatele zadaneho jako argument awk: 
+         user nproc=pocet_spustenych_procesu rss=velikost_alokovane_pameti 
+         list=seznam_procesu?
+QE
+
+Q-03-en: Use the output from the command "ps -eo user,rss,comm" and command awk.
+         For the user XYZ which is given like argument of awk 
+         print the following information:
+
+        user_name nproc=number_of_running_processes rss=size_of_RSS_memory_alocatted_by_these_processes
+        list=list_of_these_processes
+
+QE
+
+S-03:  ps -eo user,rss,comm | nawk -v user="trdlicka" -f ps3.awk
+
+       Program file ps3.awk:
+
+BEGIN {
+  nproc=0;
+  rss=0;
+}
+{
+  if ( $1 == user )
+  {
+    proclist[nproc]=$3;
+    nproc=nproc+1;
+    rss=rss+$2;
+  }
+}
+END {
+  printf("%s: nproc=%d rss=%d KB\n", user, nproc, rss)
+  printf("        proclist: ");
+  for (i=0; i<nproc; i++) {
+    printf("%s, ", proclist[i]);
+  };
+  printf("\n");
+}
+
+SE
+
+#----------------------------------------
+Q-04-cz: Z vystupu prikazu ps -eo user,rss,comm pomoci prikazu awk vytvorete 
+         statistiku pres vsechny uzivatele: 
+         userXYZ nproc=pocet_spustenych_procesu rss=velikost_alokovane_pameti
+QE
+
+Q-04-en: Use the output from the command "ps -eo user,rss,comm" and command awk.
+         For each user (which is working on the server) print the following information:
+
+        user_name nproc=number_of_running_processes rss=size_of_RSS_memory_alocatted_by_these_processes
+      
+QE
+
+S-04:  ps -eo user,rss,comm | awk -f ps4.awk
+
+       Program file ps4.awk:
+
+BEGIN {
+  printf("User\t\tNProc\tRSS (KB)\n");
+  printf("-----------------------------------\n");
+}
+{
+  if ( NR > 1 ) {
+    nproc[$1]=nproc[$1]+1;
+    rss[$1]=rss[$1]+$2;
+  }; 
+}
+END {
+  for (i in nproc) { 
+    printf("%s\t\t%d\t%s\n", i, nproc[i], rss[i]);
+  };
+}
+
+SE
+
+# ------------ Permissions -----------------
+Q-05-cz: Pracujte ve dvojcich (napr. user1 a user2). 
+         Uzivatel user1 provede mkdir ~user1/uos-cv8; cp /bin/ls /etc/passwd ~user1/uos-cv8. 
+         Jaka minimalni prava musite nastavit, aby uzivatel user2 mohl uspesne provest
+           a) ls ~user1/uos-cv8
+           b) ls -l ~user1/uos-cv8
+           c) cat ~user1/uos-cv8/passwd
+           d) ~user1/uos-cv8/ls
+           e) echo "hellouser:::::" > ~user1/uos-cv8/passwd
+           f) rm  ~user1/uos-cv8/passwd
+           g) touch ~user1/uos-cv8/mypasswd
+           h) rm -r ~user1/uos-cv8/
+QE
+
+Q-05-en: Work in couples (e.g. user1 and user2). 
+         User user1 use the collowing commands:
+
+          mkdir ~user1/uos-cv8   ;   cp /bin/ls /etc/passwd ~user1/uos-cv8
+
+         What minimal permissions must be placed on files and directories, 
+         such that the user user2 can use successfully the following commands:
+            a) ls ~user1/uos-cv8
+            b) ls -l ~user1/uos-cv8
+            c) cat ~user1/uos-cv8/passwd
+            d) ~user1/uos-cv8/ls
+            e) echo "hellouser:::::" >> ~user1/uos-cv8/passwd
+            f) rm  ~user1/uos-cv8/passwd
+            g) touch ~user1/uos-cv8/passwd
+            h) rm -r ~user1/uos-cv8/
+QE
+
+S-05:     id -a user1 ;  id -a user2  => permisions for group or other
+          Disable all permissions on ~user1, uos-cv8 and all files,
+          then by chmod add permissions one by one to find the solution. 
+SE
+
+#----------------------------------------
+Q-06-cz: Jakou mate nastavenou defaultni masku pristupovych prav? Co to znamena?
+QE
+
+Q-06-en: What value has your default permission mask? What does it mean?
+QE
+
+S-06:   umask
+        Explain the meaning! 
+
+SE
+
+#----------------------------------------
+Q-07-cz: Jaka maska pristupovych prav musi byt nastavena, aby default prava byla
+           a) file: rw-------    directory: rwx------
+           b) file: rw--w-r--    directory: rw--w-r--
+           c) file: ----w-rw-    directory: ----wxrw-      
+QE
+
+Q-07-en: What value of the default permission mask should be used, that new files and directories
+         have the following permissions:
+           a) file: rw-------    directory: rwx------
+           b) file: rw--w-r--    directory: rw--w-r--
+           c) file: ----w-rw-    directory: ----wxrw-      
+QE 
+
+S-07:     a) umask 077  b) umask 153 c) umask 741
+SE
+
+# ------------ find -----------------------
+Q-08-cz: Pomoci prikazu find zjistete kolik obycejnych souboru 
+       je v /usr/bin (rekurzivne)?
+QE
+
+Q-08-en: Use the command find and print the number of regular files 
+         which are in the directory /usr/bin (recursively)?
+QE
+
+S-08:  find /usr/bin -type f | wc -l
+SE 
+
+#----------------------------------------
+Q-09-cz: Pomoci prikazu find zjistete kolik symlinku je 
+         v /usr/bin (rekurzivne)?
+QE
+
+Q-09-en: Use the command find and print the number of symbolic links 
+         which are in the directory /usr/bin (recursively)?
+QE
+
+S-09:  find /usr/bin -type l | wc -l
+SE 
+
+#----------------------------------------
+Q-10-cz: Pomoci prikazu find zjistete, ktere binarky maji 
+         nastaveny setuid nebo setgid pravo v ardesari /usr/bin?
+QE
+
+Q-10-en: Use the command find and print the files which 
+         have setuid and setgid permission and are located
+         in the directory /usr/bin (recursively)?
+
+         Hint: permission setuid is 4555 and setgid is 2555
+QE
+
+S-10:  find /usr/bin/ \( -perm -4555 -o -perm -2555 \) -ls 
+SE 
+
+#----------------------------------------
+Q-11-cz: Ktere soubory z /usr/bin jsou skripty pro shell?
+QE
+
+Q-11-en: Which files from /usr/bin are shell scripts?
+
+         Hint: the script is the file with the following first line: "#! /bin/sh" 
+ 
+QE
+
+S-11:  find /usr/bin/ -exec grep -l '^#! */bin/sh' {} \;  2>/dev/null
+SE
+
+#----------------------------------------
+Q-12-cz: Najdete vsechny harlinky k souboru  /etc/init.d/appserv.
+QE
+
+Q-12-en: Find all hardlinks for the file /etc/init.d/appserv 
+         in directory /etc (recursively).
+QE
+
+S-12:    find /etc -inum `ls -i /etc/init.d/appserv | awk '{print $1}'` 2>/dev/null
+SE
+
+#----------------------------------------
+Q-13-cz: Najdete vsechny symbolicke linky na adresar /usr/bin.
+QE
+
+Q-13-en: Find all symbolic links for the directory /usr/bin
+         in directory / (recursively).
+
+QE
+S-13: find / -type l -ls 2>/dev/null | grep '/usr/bin$'
+SE
+
+#----------------------------------------
