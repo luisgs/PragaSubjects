@@ -27,7 +27,7 @@
  * how much money you can earn.
  */
 int ganancia (int price, int * budget, int * earn) {
-/*	printf("valor de price %d, budget %d, y earn %d\n", price, *budget, *earn);	*/
+/*	//printf("valor de price %d, budget %d, y earn %d\n", price, *budget, *earn);	*/
 	return (( (*budget) / price ) * (*earn));
 }
 
@@ -40,13 +40,13 @@ int sumBribes ( int budget, int * table, int tableLen ) {
 	float divisor=0;
 	float divtmp;
 
-	int tmpMax=0, tmpResto=0;
+	int tmpResto=0, tmpMax=0;
 	float opcion2=0;
 
-	int valor1, valor2;
+	int valor1=0, valor2=0;
 
-	printf("*******Empezamos sumBribes**\n");
-	printf("budget %d\n", budget);	
+	/*printf("*******Empezamos sumBribes**\n");
+	printf("budget %d\n", budget);	*/
 
 	/* if i have 0 dollars */
 	if (budget==0) {
@@ -57,30 +57,42 @@ int sumBribes ( int budget, int * table, int tableLen ) {
 		if ((table[i] != 0) && (i<=budget) && ((divtmp=((float) table[i]/ (float) i)) > divisor) ) {
 			opcion2 = divisor;	/* antigup max */
 			tmpResto = resto;
+			tmpMax = max;
 
 			max = ganancia( i, &budget, &table[i]);
 			resto = budget - ( i * ( budget / i) );
 			divisor = divtmp;
-			printf("Has ganado un max de %d con un budget de %d, resto %d\n", max, budget, resto);	
-		} 
-/*		printf("valor de tmp %d, max %d, resto %d\n", tmp, max, resto);	*/
-		printf("valor de divisor %f, y opcion2 %f y divisor %f\n", divtmp, opcion2, divisor);
+			/*printf("Has ganado un max de %d con un budget de %d, resto %d\n", max, budget, resto);	*/
+		}
+/*		//printf("valor de tmp %d, max %d, resto %d\n", tmp, max, resto);	
+		//printf("valor de divisor %f, y opcion2 %f y divisor %f\n", divtmp, opcion2, divisor);*/
 	}
-printf("opcion 1 %f y opcion %f\n", divtmp, opcion2 );
+	/*printf("opcion 1 %f y opcion %f\n", divtmp, opcion2 );*/
 
 	if (resto == budget) {
 		/* no podemos hacer nada! */
-		printf("Sumaste %d, resto %d\n", max, resto);
+		/*printf("Sumaste %d, resto %d\n", max, resto);*/
 		return max;
 	} else {
-/*		printf("Sumaste %d, resto %d\n", max, resto);*/
-		valor1 = sumBribes(resto, table, tableLen);
-		valor2 = sumBribes(tmpResto, table, tableLen);
-		max += (valor1>valor2)?valor1:valor2;
+/*		//printf("Al fregado! resto=%d, tmpresto=%d\n", resto, tmpResto);
+//printf("opcion1: ganado %d, resto %d\n", max, resto);
+//printf("opcion2: ganado %d, resto %d\n", tmpMax, tmpResto);*/
+		valor1=max;
+		if (resto!=0) {
+			valor1 += sumBribes(resto, table, tableLen);	/* valor alto	*/
+		}
+/*			//printf("valor1 con valor %d\n", valor1);*/
+		valor2=tmpMax;
+		if ((opcion2!=0) && (tmpResto!=0)) {
+			valor2 += sumBribes(tmpResto, table, tableLen);	/* plan B	*/
+		}
+
+/*			//printf("valor2 con valor %d\n", valor2);*/
+		max = (valor1>valor2)?valor1:valor2;
 	}
 
-/*	printf("*******Terminamos sumBribes**\n");*/
-/*	printf("valor de tmp %d, max %d, resto %d\n", tmp, max, resto);*/
+/*	//printf("*******Terminamos sumBribes**\n");*/
+/*	//printf("valor de tmp %d, max %d, resto %d\n", tmp, max, resto);*/
 
 	
 	return max;
@@ -90,46 +102,46 @@ printf("opcion 1 %f y opcion %f\n", divtmp, opcion2 );
 int main ( int argc, char * argv [] ) {
 	/* your tests */
 	int r;
-	int test1[] = {0, 100, 0, 0, 350, 0, 750 }; 
+/*	int test1[] = {0, 100, 0, 0, 350, 0, 750 }; */
 	int test2[] = { 0, 1, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 53 };
-	int test3[] = { 0, 0, 0, 0, 0, 0, 0, 1 };
+/*	int test3[] = { 0, 0, 0, 0, 0, 0, 0, 1 }; */
 
 /*	r = sumBribes( 1, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 2, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 3, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 4, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 5, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 6, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 7, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 8, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 9, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 10, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 11, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 12, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 13, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 14, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 15, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 16, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 17, test1, 7); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 */
-/*	r = sumBribes( 1, test2, 16); 
+	r = sumBribes( 1, test2, 16); 
 	printf("%d\n", r);
 	r = sumBribes( 2, test2, 16); 
 	printf("%d\n", r);
@@ -159,50 +171,50 @@ int main ( int argc, char * argv [] ) {
 	printf("%d\n", r);
 	r = sumBribes( 15, test2, 16); 
 	printf("%d\n", r);
-*/
+
 	r = sumBribes( 16, test2, 16); 
 	printf("%d\n", r);
-/*	r = sumBribes( 17, test2, 16); 
+	r = sumBribes( 17, test2, 16); 
 	printf("%d\n", r);
-*/
+
 /*	r = sumBribes( 1, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 2, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 3, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 4, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 5, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 6, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 7, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 8, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 9, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 10, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 11, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 12, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 13, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 14, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 15, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 16, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	r = sumBribes( 17, test3, 8); 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 */
-/*	printf("===============================\n");
-	printf("Solucion de sumBribes: %d\n", r);
-	printf("===============================\n");
+/*	//printf("===============================\n");
+	//printf("Solucion de sumBribes: %d\n", r);
+	//printf("===============================\n");
 */
 	return 0;
 }
