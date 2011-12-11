@@ -44,7 +44,7 @@ int sumBribes ( int budget, int * table, int tableLen ) {
 	float opcion2=0;
 
 	int valor1=0, valor2=0;
-
+	int length=budget;
 	/*printf("*******Empezamos sumBribes**\n");
 	printf("budget %d\n", budget);	*/
 
@@ -52,6 +52,8 @@ int sumBribes ( int budget, int * table, int tableLen ) {
 	if (budget==0) {
 		return 0;
 	}
+
+	length = (tableLen<budget)?tableLen:budget;
 
 	for (i = 1; i < tableLen; i++) {	/* when i=0 has no sense */
 		if ((table[i] != 0) && (i<=budget) && ((divtmp=((float) table[i]/ (float) i)) > divisor) ) {
@@ -63,7 +65,7 @@ int sumBribes ( int budget, int * table, int tableLen ) {
 			resto = budget - ( i * ( budget / i) );
 			divisor = divtmp;
 			/*printf("Has ganado un max de %d con un budget de %d, resto %d\n", max, budget, resto);	*/
-		}
+		} 
 /*		//printf("valor de tmp %d, max %d, resto %d\n", tmp, max, resto);	
 		//printf("valor de divisor %f, y opcion2 %f y divisor %f\n", divtmp, opcion2, divisor);*/
 	}
