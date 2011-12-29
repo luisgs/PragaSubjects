@@ -17,6 +17,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <string.h>
 
 int matrix[32][32][2];
@@ -32,12 +33,36 @@ int invalidInput () {
 /*
  * show matrix
  */
-int showMatrix () {
+int showMatrix (int *row, int* column) {
 	int i, j;
-	for (i=0; i<10; i++) {
-		for (j=0; j<10; j++) {
-			printf("(%d," , matrix[i][j][0]);
-			printf("%d) ", matrix[i][j][1]);
+	for (i=0; i<*row; i++) {
+		for (j=0; j<*column; j++) {
+			if (j>0) {
+				printf(" ");
+			}
+			switch (matrix[i][j][0]) {
+				case -1:
+					printf("X");
+					break;
+				case 0:
+					printf(".");
+					break;
+				default:
+					printf("%d", matrix[i][j][0]);
+					break;
+			}
+			switch (matrix[i][j][1]) {
+				case -1:
+					if ((matrix[i][j][0])!=-1) {
+						printf("\\X");
+					}
+					break;
+				case 0:
+					break;
+				default:
+					printf("\\%d", matrix[i][j][1]);
+					break;
+			}
 		}
 		printf("\n");
 	}
@@ -51,7 +76,8 @@ int correctInput (char * letra, int * Ncolumn, int *Nrow, int *NcActual) {
 	int blanco = 0;	/* anterior char blanco */
 	int x = 0;	/* x character */
 	int slash = 0;
-	int numero = 0, potencia=0;
+	int numero = 0;
+	float  potencia=0.0;
 
 /* im studying *ltra */
 /*printf("letra: %c\n", *letra);*/
@@ -93,11 +119,10 @@ int correctInput (char * letra, int * Ncolumn, int *Nrow, int *NcActual) {
 				matrix[*Nrow][*NcActual][1] = 0; 
 			} else if ((atoi(letra) <= 9) && (0 <= atoi(letra))) {
 				/*ok*/
-				numero = numero*(10^potencia) + atoi(letra);
-/*				printf("esto es un numero:%d\n", numero);*/
+				numero = numero*(pow(10.0, potencia)) + atoi(letra);
 				matrix[*Nrow][*NcActual][slash] = numero;
 				potencia++;
-				slash=0;
+				/*slash=0;*/
 				x=0;
 			} else {
 				/* one character */
@@ -121,23 +146,59 @@ int correctInput (char * letra, int * Ncolumn, int *Nrow, int *NcActual) {
 
 
 /*
+ * Searchit
+ */
+int searchit (int row, int column, int kind) {
+	int fila=row, columna = column;
+	if (kind==0) { /* row */
+		while ((matrix[fila][column][0])==0) {
+			fila--;
+		}
+	printf("%d\n", fila);
+		return fila;
+	} else {
+		while ((matrix[row][columna][0])==0) {
+			columna--;
+		}
+		return columna;
+	}
+}
+
+/*
  * Array with all posibilities
-*/
-int posibilities () {
-	int i, j, max, pos=0;
-	int *fragment;
+ */
+int posibilities (int *row, int*column) {
+	int i, j, max, pos;
 
 	/* i have to read all cells*/
-	for (i=0; i<32; i++) {		/* row		*/
-		for (j=0; j<32; j++) {	/* column	*/
+	for (i=0; i<*row; i++) {		/* row		*/
+		for (j=0; j<*column; j++) {	/* column	*/
+			pos = 0;
 			if ((max=matrix[i][j][0]) > 0) {
-				fragment = (int *) malloc(sizeof(int)*(max-1));
-				/*mkakuro[i][j] =  (int *) malloc(sizeof(int)*(max-1));*/
+				mkakuro[i][j] =  (int *) malloc(sizeof(int)*(max-1));
 				while (max > 1) {
 					max--;
-					fragment[pos] = max;
-/*					printf("valor de fragment: %d\n", fragment[pos]);*/
+					mkakuro[i][j][pos]=max;
 					pos++;
+				}
+			}
+			if ((max=matrix[i][j][1]) > 0) {
+				mkakuro[i][j] =  (int *) malloc(sizeof(int)*(max-1));
+				while (max > 1) {
+					max--;
+					mkakuro[i][j][pos]=max;
+					pos++;
+				}
+			}
+			if (max==0) {
+				searchit(i, j, 0);
+					printf("(%d %d)", matrix[i-1][j][0] , matrix[i][j-1][1]);
+				/* hacer menos lista */
+				if (matrix[searchit(i, j, 0)][j][0] <= matrix[i][searchit(i, j, 1)][1]) {
+					printf("Position %d, %d valorado con columna\n", searchit(i, j, 0), j);
+					mkakuro[i][j] = &matrix[searchit(i, j, 0)][j][0];
+				} else {
+					mkakuro[i][j] = &matrix[i][searchit(i, j, 0)][1];
 				}
 			}
 		}
@@ -148,7 +209,7 @@ int posibilities () {
 
 int main () {
 	char letra[2];
-	int *Ncolumn, *Nrow, *NcActual;
+	int Ncolumn=0, Nrow=0, NcActual=0;
 	int i, j;
 	/* set (x,x) in cells*/
 	for (i=0; i<32; i++) {
@@ -159,12 +220,6 @@ int main () {
 	}
 /*	showMatrix();*/
 
-	Ncolumn = malloc(sizeof(int));    /* Allocate an int pointee, */
-	Nrow = malloc(sizeof(int));
-	NcActual = malloc(sizeof(int));
-	*Ncolumn = 0;
-	*Nrow = 0;
-	*NcActual = 0;
 		
 	printf("Enter the kakuro:\n");	
 
@@ -172,24 +227,25 @@ int main () {
 	/* Leemos toda una fila */
 	/* Comprobamos que todo esta correcto */
 	scanf("%c", letra); 
-	if (correctInput(letra, Ncolumn, Nrow, NcActual)) {
+	if (correctInput(letra, &Ncolumn, &Nrow, &NcActual)) {
 		return 1;
 	} else { /* char corrects */
 		/*printf("Character correct\n");*/
 	}
+	Ncolumn++;
 	/* fin de estudio de entrada ok */
 	/************************/
 	
 	/* input grid exceeds 32 */
-	if (( *Ncolumn >= 32 ) || (*Nrow >= 32)) {
+	if (( Ncolumn >= 32 ) || (Nrow >= 32)) {
 		return invalidInput();
 	}
 
-/*	showMatrix();*/
+	showMatrix(&Nrow, &Ncolumn);
 
 	/* tengo todo en la mtrix */
 	
-posibilities();	
+	posibilities(&Nrow, &Ncolumn);	
 
 
 	printf("No solution.\n");
