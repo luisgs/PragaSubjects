@@ -1,0 +1,2 @@
+Enter the kakuro:
+No solution.

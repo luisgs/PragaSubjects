@@ -1,0 +1,2 @@
+Enter the kakuro:
+Total solutions: 4
