@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_131cfe626768ccd6085692d36b507e1d" kind="dir">
+    <compoundname>/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/</compoundname>
+    <innerfile refid="_gen_final_8java">GenFinal.java</innerfile>
+    <innerfile refid="_main_8java">Main.java</innerfile>
+    <innerfile refid="_parser_8java">Parser.java</innerfile>
+    <innerfile refid="_scanner_8java">Scanner.java</innerfile>
+    <innerfile refid="_simbolo_8java">Simbolo.java</innerfile>
+    <innerfile refid="_tablas_8java">Tablas.java</innerfile>
+    <innerfile refid="_tabla_simbolos_8java">TablaSimbolos.java</innerfile>
+    <innerfile refid="_tercetos_8java">Tercetos.java</innerfile>
+    <innerfile refid="tupla___tercetos_8java">tupla_Tercetos.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/"/>
+  </compounddef>
+</doxygen>

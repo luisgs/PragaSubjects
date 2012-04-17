@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_tabla_simbolos" kind="class" prot="public">
+    <compoundname>compilationunit::TablaSimbolos</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1aebb08776ac08c4091b4870a15cd50ca9" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.undef</definition>
+        <argsstring></argsstring>
+        <name>undef</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a9a965fe6554b57deb20488dc7c45100c" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.entera</definition>
+        <argsstring></argsstring>
+        <name>entera</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a171a3f91994e906a551c9135fd57905f" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.bool</definition>
+        <argsstring></argsstring>
+        <name>bool</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1aba45d023035be38ffdfc2ce5d659a392" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.cadena</definition>
+        <argsstring></argsstring>
+        <name>cadena</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a7a59ac470361680367f31d1f515eda83" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.vacio</definition>
+        <argsstring></argsstring>
+        <name>vacio</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a8628220a958400a5e7e546a1e2c0a2b6" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.identificador</definition>
+        <argsstring></argsstring>
+        <name>identificador</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1af730fb41085deb7189c48f2ff7b460da" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="25" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a3760158aead600b23e26a9e8de664ca2" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.funcion</definition>
+        <argsstring></argsstring>
+        <name>funcion</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="25" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1af2b3d87aca2bd6d1905255bdaed58c91" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.clase</definition>
+        <argsstring></argsstring>
+        <name>clase</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="25" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a8c2695e97fdf3764f485efdc959e7f4a" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.metodo</definition>
+        <argsstring></argsstring>
+        <name>metodo</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="25" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a12ba02df164c0bdc6cf7771036b10355" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.privado</definition>
+        <argsstring></argsstring>
+        <name>privado</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="27" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1a972ec906e4be8918f1cf8dd103a19637" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.TablaSimbolos.publico</definition>
+        <argsstring></argsstring>
+        <name>publico</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="27" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1ab044f7db8545a4ac856a60147fdd735c" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.TablaSimbolos.simbolo_asociado</definition>
+        <argsstring></argsstring>
+        <name>simbolo_asociado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="29" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1aa65e9f1e5f446664c7f02e3c46d8c02d" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.TablaSimbolos.ambito_padre</definition>
+        <argsstring></argsstring>
+        <name>ambito_padre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="30" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1aac410ac47e84b70c886ab8b9b65db65d" prot="private" static="no" mutable="no">
+        <type>Vector</type>
+        <definition>Vector compilationunit.TablaSimbolos.tabla</definition>
+        <argsstring></argsstring>
+        <name>tabla</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="31" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tabla_simbolos_1ae6882af2ac9e0d4d9746a32ed336407a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.TablaSimbolos.desplazamiento</definition>
+        <argsstring></argsstring>
+        <name>desplazamiento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="32" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a41e5090aab076468052537ce736b61e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.TablaSimbolos.TablaSimbolos</definition>
+        <argsstring>()</argsstring>
+        <name>TablaSimbolos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="35" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1ad1c074d69e95f65f733ce25380121efe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.TablaSimbolos.TablaSimbolos</definition>
+        <argsstring>(TablaSimbolos ambito_padre, Simbolo simbolo_asociado)</argsstring>
+        <name>TablaSimbolos</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+          <declname>ambito_padre</declname>
+        </param>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo_asociado</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="42" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a0199f21a75e16a86ed608bc53b24d2ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.TablaSimbolos.InsertarSimbolo</definition>
+        <argsstring>(Simbolo simbolo)</argsstring>
+        <name>InsertarSimbolo</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="49" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="48" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a7734ab2a26f0091693e91e8f2a533d4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean compilationunit.TablaSimbolos.Esta</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>Esta</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="71" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="69" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1ac846aab1ddde187ec93b6f4a5916d2e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.TablaSimbolos.GetSimbolo</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>GetSimbolo</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="89" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="86" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a479828ee35be608e3637492717707682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.TablaSimbolos.Ambito_Padre</definition>
+        <argsstring>()</argsstring>
+        <name>Ambito_Padre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="108" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a788f9f38f3eece58c887df49a0728a68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.TablaSimbolos.GetDesplazamiento</definition>
+        <argsstring>()</argsstring>
+        <name>GetDesplazamiento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="113" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a5a93a0e6d8fc0f3f13afab14de7603e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.TablaSimbolos.SetDesplazamiento</definition>
+        <argsstring>(int desplazamiento)</argsstring>
+        <name>SetDesplazamiento</name>
+        <param>
+          <type>int</type>
+          <declname>desplazamiento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="118" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a2e77882bf28046f545997466890d72c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.TablaSimbolos.ActualizarDesplazamiento</definition>
+        <argsstring>()</argsstring>
+        <name>ActualizarDesplazamiento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="123" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="122" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a72838fae564c4ae2df985ca42c18a225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.TablaSimbolos.GetSimboloAsociado</definition>
+        <argsstring>()</argsstring>
+        <name>GetSimboloAsociado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="142" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tabla_simbolos_1a854ca8af8d6b9fa93d1f46229ceae7cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector</type>
+        <definition>Vector compilationunit.TablaSimbolos.GetVectorSimbolos</definition>
+        <argsstring>()</argsstring>
+        <name>GetVectorSimbolos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="147" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="146" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="144">
+        <label>compilationunit.TablaSimbolos</label>
+        <link refid="classcompilationunit_1_1_tabla_simbolos"/>
+        <childnode refid="145" relation="usage">
+          <edgelabel>tabla</edgelabel>
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>simbolo_asociado</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>ambito_padre</edgelabel>
+        </childnode>
+      </node>
+      <node id="145">
+        <label>Vector</label>
+      </node>
+      <node id="146">
+        <label>compilationunit.Simbolo</label>
+        <link refid="classcompilationunit_1_1_simbolo"/>
+        <childnode refid="145" relation="usage">
+          <edgelabel>atributos</edgelabel>
+          <edgelabel>parametros</edgelabel>
+          <edgelabel>valor</edgelabel>
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>clase_perteneciente</edgelabel>
+          <edgelabel>clase_devuelta</edgelabel>
+          <edgelabel>objeto_perteneciente</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>ambito_asociado</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" line="19" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/TablaSimbolos.java" bodystart="19" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a2e77882bf28046f545997466890d72c8" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>ActualizarDesplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a479828ee35be608e3637492717707682" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>Ambito_Padre</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1aa65e9f1e5f446664c7f02e3c46d8c02d" prot="private" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>ambito_padre</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a171a3f91994e906a551c9135fd57905f" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>bool</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1aba45d023035be38ffdfc2ce5d659a392" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>cadena</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1af2b3d87aca2bd6d1905255bdaed58c91" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>clase</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1ae6882af2ac9e0d4d9746a32ed336407a" prot="private" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>desplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a9a965fe6554b57deb20488dc7c45100c" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>entera</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a7734ab2a26f0091693e91e8f2a533d4e" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>Esta</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a3760158aead600b23e26a9e8de664ca2" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>funcion</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a788f9f38f3eece58c887df49a0728a68" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>GetDesplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1ac846aab1ddde187ec93b6f4a5916d2e0" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>GetSimbolo</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a72838fae564c4ae2df985ca42c18a225" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>GetSimboloAsociado</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a854ca8af8d6b9fa93d1f46229ceae7cb" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>GetVectorSimbolos</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a8628220a958400a5e7e546a1e2c0a2b6" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>identificador</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a0199f21a75e16a86ed608bc53b24d2ca" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>InsertarSimbolo</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a8c2695e97fdf3764f485efdc959e7f4a" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>metodo</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a12ba02df164c0bdc6cf7771036b10355" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>privado</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a972ec906e4be8918f1cf8dd103a19637" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>publico</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a5a93a0e6d8fc0f3f13afab14de7603e7" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>SetDesplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1ab044f7db8545a4ac856a60147fdd735c" prot="private" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>simbolo_asociado</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1aac410ac47e84b70c886ab8b9b65db65d" prot="private" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>tabla</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a41e5090aab076468052537ce736b61e9" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>TablaSimbolos</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1ad1c074d69e95f65f733ce25380121efe" prot="public" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>TablaSimbolos</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1aebb08776ac08c4091b4870a15cd50ca9" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>undef</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1a7a59ac470361680367f31d1f515eda83" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>vacio</name></member>
+      <member refid="classcompilationunit_1_1_tabla_simbolos_1af730fb41085deb7189c48f2ff7b460da" prot="package" virt="non-virtual"><scope>compilationunit::TablaSimbolos</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

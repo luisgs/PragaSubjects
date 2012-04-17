@@ -1,0 +1,73 @@
+Creada sala: "sala01"
+Creada sala: "sala02"
+Creada sala: "sala03"
+Creada sala: "sala04"
+Creada sala: "sala05"
+Creada sala: "sala06"
+Creada sala: "sala07"
+Agregado Cliente: 11111111A
+Agregado Cliente: 22222222B
+Agregado Cliente: 33333333C
+Agregado Cliente: 44444444D
+Agregado Cliente: 55555555E
+Agregado Cliente: 66666666F
+Agregado Cliente: 77777777G
+Agregado Cliente: 88888888H
+Agregado Cliente: 99999999B
+DISPONIBILIDAD SALAS
+Fechas: desde 01-06-2010 hasta 30-06-2010
+"sala01" 010 10
+"sala02" 015 15
+"sala03" 015 15
+"sala04" 030 30
+"sala05" 050 50
+"sala06" 100 99
+"sala07" 100 99
+FIN DISPONIBILIDAD SALAS
+Agregada reunion: "Reunion 01" 11111111A "sala02"
+Agregada reunion: "Reunion 02" 11111111A "sala03"
+Agregada reunion: "Reunion 03" 11111111A "sala04"
+Agregada reunion: "Reunion 04" 22222222B "sala06"
+Agregada reunion: "Reunion 05" 33333333C "sala01"
+Agregada reunion: "Reunion 06" 44444444D "sala02"
+DISPONIBILIDAD SALAS
+Fechas: desde 01-06-2010 hasta 30-06-2010
+"sala05" 050 50
+"sala07" 100 99
+FIN DISPONIBILIDAD SALAS
+REUNIONES DIA
+Dia: 03-06-2010
+"Reunion 02" "cliente01" "sala03" 09:00 15:00  
+"Reunion 03" "cliente01" "sala04" 09:00 19:00  
+"Reunion 04" "cliente02" "sala06" 11:00 19:00  
+FIN REUNIONES DIA
+REUNIONES DIA
+Dia: 07-06-2010
+"Reunion 05" "cliente03" "sala01" 09:00 11:00  
+"Reunion 06" "cliente04" "sala02" 09:00 11:00  
+FIN REUNIONES DIA
+OCUPACION SALA
+Sala: "sala02" 015
+Mes: 06-2010
+Dia 02
+"Reunion 01" "cliente01" 
+FIN DIA
+Dia 07
+"Reunion 06" "cliente04" 
+FIN DIA
+FIN REUNIONES DIA
+FACTURA CLIENTE
+Cliente: "cliente01" 11111111A "001, Calle de cliente 01"
+"Reunion 01" "sala02" 02-06-2010 002 00030
+"Reunion 02" "sala03" 02-06-2010 015 00225
+"Reunion 03" "sala04" 02-06-2010 026 00780
+Total: 1035
+FIN FACTURA CLIENTE
+Eliminada sala: "sala07"
+Eliminado cliente: 11111111A
+DISPONIBILIDAD SALAS
+Fechas: desde 01-06-2010 hasta 30-06-2010
+"sala03" 015 15
+"sala04" 030 30
+"sala05" 050 50
+FIN DISPONIBILIDAD SALAS

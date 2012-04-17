@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_buffer" kind="class" prot="package">
+    <compoundname>compilationunit::Buffer</compoundname>
+    <derivedcompoundref refid="classcompilationunit_1_1_u_t_f8_buffer" prot="public" virt="non-virtual">compilationunit.UTF8Buffer</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1a50f26df022c5363463028448ea1d18de" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Buffer.EOF</definition>
+        <argsstring></argsstring>
+        <name>EOF</name>
+        <initializer> Character.MAX_VALUE + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="29" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1aed01eb056b2f55313ddb1423b092cf6f" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Buffer.MIN_BUFFER_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>MIN_BUFFER_LENGTH</name>
+        <initializer> 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="30" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1a260835394a733841950b0379e8079c4b" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Buffer.MAX_BUFFER_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>MAX_BUFFER_LENGTH</name>
+        <initializer> MIN_BUFFER_LENGTH * 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="31" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1a895dba52fc0aac3bf818507f9bf61ad8" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] compilationunit.Buffer.buf</definition>
+        <argsstring></argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="32" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1abc29ec85dec66c58420fc6bbb127808e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.bufStart</definition>
+        <argsstring></argsstring>
+        <name>bufStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="33" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1aab3fa1a62e179b12c11e018fb0c69252" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.bufLen</definition>
+        <argsstring></argsstring>
+        <name>bufLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="34" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1af483740606d5e7aac96af307a30569bb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.fileLen</definition>
+        <argsstring></argsstring>
+        <name>fileLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="35" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1ac2fced098aa50f597c5cf1fa5d293ac4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.bufPos</definition>
+        <argsstring></argsstring>
+        <name>bufPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="36" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1af32c7c7423b4f01d62c62ecf9b907e25" prot="private" static="no" mutable="no">
+        <type>RandomAccessFile</type>
+        <definition>RandomAccessFile compilationunit.Buffer.file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="37" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_buffer_1a1e9ce8b51ec1499f0c8b1fda5c3ae644" prot="private" static="no" mutable="no">
+        <type>InputStream</type>
+        <definition>InputStream compilationunit.Buffer.stream</definition>
+        <argsstring></argsstring>
+        <name>stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="38" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1aa7b5b8f40ed13fa6badde924e3a5141f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.Buffer.Buffer</definition>
+        <argsstring>(InputStream s)</argsstring>
+        <name>Buffer</name>
+        <param>
+          <type>InputStream</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="40" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1ac5419ae9805be79a4d1a2db209692a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.Buffer.Buffer</definition>
+        <argsstring>(String fileName)</argsstring>
+        <name>Buffer</name>
+        <param>
+          <type>String</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="46" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="46" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1a9cd94fbabf8633ab60874ad3d390c459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.Read</definition>
+        <argsstring>()</argsstring>
+        <name>Read</name>
+        <reimplementedby refid="classcompilationunit_1_1_u_t_f8_buffer_1a6c5dbd5fb9ecbe7fbe4c57aeb532996f">Read</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="91" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="91" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1a5721a088dde05cf06c925430ae29b3d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.Peek</definition>
+        <argsstring>()</argsstring>
+        <name>Peek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="104" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1ac3ee88ae547f6f8f993285309181887b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Buffer.GetString</definition>
+        <argsstring>(int beg, int end)</argsstring>
+        <name>GetString</name>
+        <param>
+          <type>int</type>
+          <declname>beg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="113" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="113" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1a479879ee794881e80b33dffe6236afa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.getPos</definition>
+        <argsstring>()</argsstring>
+        <name>getPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="123" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1a3c1031cdd7630017c7e7cf50b73d279e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Buffer.setPos</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setPos</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="127" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="127" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1af14f2e2b29e9235032721f9553292259" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.Buffer.Buffer</definition>
+        <argsstring>(Buffer b)</argsstring>
+        <name>Buffer</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_buffer" kindref="compound">Buffer</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="63" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="63" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1a64bf273bbe04e45f074ea3665079e60d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Buffer.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <exceptions> throws Throwable </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="75" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1aed283593629db7169b383a216619726c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Buffer.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="80" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="80" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_buffer_1a4c7eb5cc36510e53eb655fa52c7255c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Buffer.ReadNextStreamChunk</definition>
+        <argsstring>()</argsstring>
+        <name>ReadNextStreamChunk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="159" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="159" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>compilationunit.Buffer</label>
+        <link refid="classcompilationunit_1_1_buffer"/>
+      </node>
+      <node id="81">
+        <label>compilationunit.UTF8Buffer</label>
+        <link refid="classcompilationunit_1_1_u_t_f8_buffer"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>compilationunit.Buffer</label>
+        <link refid="classcompilationunit_1_1_buffer"/>
+        <childnode refid="83" relation="usage">
+          <edgelabel>stream</edgelabel>
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>file</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>RandomAccessFile</label>
+      </node>
+      <node id="83">
+        <label>InputStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="22" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="22" bodyend="183"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_buffer_1a895dba52fc0aac3bf818507f9bf61ad8" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>buf</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1aa7b5b8f40ed13fa6badde924e3a5141f" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>Buffer</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1ac5419ae9805be79a4d1a2db209692a60" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>Buffer</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1af14f2e2b29e9235032721f9553292259" prot="protected" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>Buffer</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1aab3fa1a62e179b12c11e018fb0c69252" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>bufLen</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1ac2fced098aa50f597c5cf1fa5d293ac4" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>bufPos</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1abc29ec85dec66c58420fc6bbb127808e" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>bufStart</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1aed283593629db7169b383a216619726c" prot="protected" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>Close</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a50f26df022c5363463028448ea1d18de" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>EOF</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1af32c7c7423b4f01d62c62ecf9b907e25" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>file</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1af483740606d5e7aac96af307a30569bb" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>fileLen</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a64bf273bbe04e45f074ea3665079e60d" prot="protected" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>finalize</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a479879ee794881e80b33dffe6236afa2" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>getPos</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1ac3ee88ae547f6f8f993285309181887b" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>GetString</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a260835394a733841950b0379e8079c4b" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>MAX_BUFFER_LENGTH</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1aed01eb056b2f55313ddb1423b092cf6f" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>MIN_BUFFER_LENGTH</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a5721a088dde05cf06c925430ae29b3d5" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>Peek</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a9cd94fbabf8633ab60874ad3d390c459" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>Read</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a4c7eb5cc36510e53eb655fa52c7255c6" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>ReadNextStreamChunk</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a3c1031cdd7630017c7e7cf50b73d279e" prot="public" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>setPos</name></member>
+      <member refid="classcompilationunit_1_1_buffer_1a1e9ce8b51ec1499f0c8b1fda5c3ae644" prot="private" virt="non-virtual"><scope>compilationunit::Buffer</scope><name>stream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

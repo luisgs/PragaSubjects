@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="namespacecompilationunit" kind="namespace">
+    <compoundname>compilationunit</compoundname>
+    <innerclass refid="classcompilationunit_1_1_gen_final" prot="public">compilationunit::GenFinal</innerclass>
+    <innerclass refid="classcompilationunit_1_1_main" prot="public">compilationunit::Main</innerclass>
+    <innerclass refid="classcompilationunit_1_1_parser" prot="public">compilationunit::Parser</innerclass>
+    <innerclass refid="classcompilationunit_1_1_errors" prot="package">compilationunit::Errors</innerclass>
+    <innerclass refid="classcompilationunit_1_1_fatal_error" prot="package">compilationunit::FatalError</innerclass>
+    <innerclass refid="classcompilationunit_1_1_token" prot="package">compilationunit::Token</innerclass>
+    <innerclass refid="classcompilationunit_1_1_buffer" prot="package">compilationunit::Buffer</innerclass>
+    <innerclass refid="classcompilationunit_1_1_u_t_f8_buffer" prot="package">compilationunit::UTF8Buffer</innerclass>
+    <innerclass refid="classcompilationunit_1_1_start_states" prot="package">compilationunit::StartStates</innerclass>
+    <innerclass refid="classcompilationunit_1_1_scanner" prot="public">compilationunit::Scanner</innerclass>
+    <innerclass refid="classcompilationunit_1_1_simbolo" prot="public">compilationunit::Simbolo</innerclass>
+    <innerclass refid="classcompilationunit_1_1_tablas" prot="public">compilationunit::Tablas</innerclass>
+    <innerclass refid="classcompilationunit_1_1_tabla_simbolos" prot="public">compilationunit::TablaSimbolos</innerclass>
+    <innerclass refid="classcompilationunit_1_1_tercetos" prot="public">compilationunit::Tercetos</innerclass>
+    <innerclass refid="classcompilationunit_1_1tupla___tercetos" prot="package">compilationunit::tupla_Tercetos</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/GenFinal.java" line="1"/>
+  </compounddef>
+</doxygen>

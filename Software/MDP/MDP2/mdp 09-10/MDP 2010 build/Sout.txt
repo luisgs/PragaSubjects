@@ -1,0 +1,49 @@
+Creada sala: "Turing"
+Creada sala: "Babagge"
+Creada sala: "Ada"
+DISPONIBILIDAD SALAS
+Fechas: desde 01-04-2010 hasta 02-04-2010
+"Ada" 009 09
+"Babagge" 014 14
+"Turing" 012 12
+FIN DISPONIBILIDAD SALAS
+Agregado Cliente: 12345678A
+Agregado Cliente: 98765432B
+Agregado Cliente: 12312312C
+Agregada reunion: "Curso ATHENS" 12345678A "Babagge"
+Agregada reunion: "Junta centro" 98765432B "Ada"
+Agregada reunion: "Comisión doctorado" 12312312C "Turing"
+Agregada reunion: "Consejo departamento" 12345678A "Babagge"
+REUNIONES DIA
+Dia: 22-03-2010
+"Comisión doctorado" "UC3M" "Turing" 10:00 14:00  
+"Junta centro" "ETSI-UPM" "Ada" 11:00 14:30  
+FIN REUNIONES DIA
+OCUPACION SALA
+Sala: "Babagge" 030
+Mes: 03-2010
+Dia 15
+"Curso ATHENS" "FI-UPM" 
+FIN DIA
+Dia 16
+"Curso ATHENS" "FI-UPM" 
+FIN DIA
+Dia 17
+"Curso ATHENS" "FI-UPM" 
+FIN DIA
+Dia 18
+"Curso ATHENS" "FI-UPM" 
+FIN DIA
+Dia 23
+"Consejo departamento" "FI-UPM" 
+FIN DIA
+FIN REUNIONES DIA
+DISPONIBILIDAD SALAS
+Fechas: desde 10-03-2010 hasta 24-03-2010
+FIN DISPONIBILIDAD SALAS
+FACTURA CLIENTE
+Cliente: "FI-UPM" 12345678A "Campus de Montegancedo"
+"Consejo departamento" "Babagge" 23-03-2010 003 00042
+"Curso ATHENS" "Babagge" 15-03-2010 035 00490
+Total: 532
+FIN FACTURA CLIENTE

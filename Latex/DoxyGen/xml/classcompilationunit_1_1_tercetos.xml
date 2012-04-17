@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_tercetos" kind="class" prot="public">
+    <compoundname>compilationunit::Tercetos</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_tercetos_1a61d10f91cbc75571f939521ea098d6a8" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.union</definition>
+        <argsstring></argsstring>
+        <name>union</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="6" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tercetos_1af3b976c23d4f086fcbc038d079e1515f" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.etiqueta</definition>
+        <argsstring></argsstring>
+        <name>etiqueta</name>
+        <initializer>&quot;etiqueta&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="7" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tercetos_1a3549b28cd5de3d82c6289ba01de90165" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.temporal</definition>
+        <argsstring></argsstring>
+        <name>temporal</name>
+        <initializer>&quot;temporal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="8" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tercetos_1a3795738c55517f9900a0f700dbb8c952" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Tercetos.c_etiqueta</definition>
+        <argsstring></argsstring>
+        <name>c_etiqueta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="9" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tercetos_1aa76dc5737f466cd03d520f2576fc072d" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Tercetos.c_temporal</definition>
+        <argsstring></argsstring>
+        <name>c_temporal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="10" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1aa3ead599aca0803d35af5af3cda9f0f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.Tercetos.Tercetos</definition>
+        <argsstring>()</argsstring>
+        <name>Tercetos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="14" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a7c0052d7e9f94db3f537bfaebfc7f48b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.darTemporal</definition>
+        <argsstring>()</argsstring>
+        <name>darTemporal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="26" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1acaa58f3b5d750d25b12ec994e18b2f07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.darEtiqueta</definition>
+        <argsstring>()</argsstring>
+        <name>darEtiqueta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="31" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1af4ae67efa55266981308b0fd49b502cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.EtiquetaMetodo</definition>
+        <argsstring>(String etiqueta)</argsstring>
+        <name>EtiquetaMetodo</name>
+        <param>
+          <type>String</type>
+          <declname>etiqueta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="36" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1aeb68becb577685422f80e072766570b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.EtiquetaSubprograma</definition>
+        <argsstring>(String etiqueta)</argsstring>
+        <name>EtiquetaSubprograma</name>
+        <param>
+          <type>String</type>
+          <declname>etiqueta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="40" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1abc9d60655331f1347ad9e686e2822afb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.InsertarEtiqueta</definition>
+        <argsstring>(String etiqueta)</argsstring>
+        <name>InsertarEtiqueta</name>
+        <param>
+          <type>String</type>
+          <declname>etiqueta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="44" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a91ffaf12f421bd45bd7c35e7de44cac8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.operacionBinaria</definition>
+        <argsstring>(String op1, String op2, String op_binaria, String resultado)</argsstring>
+        <name>operacionBinaria</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>op2</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>op_binaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>resultado</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="51" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a823001e4b3c3cce467b36a5443306aa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.operacionUnaria</definition>
+        <argsstring>(String op1, String operador, String resultado)</argsstring>
+        <name>operacionUnaria</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>operador</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>resultado</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="57" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a24f6308b16a99f4066995d74143e3e59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.asignacion_valor</definition>
+        <argsstring>(String op1, int op2)</argsstring>
+        <name>asignacion_valor</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>op2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="63" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ad1711317bac0cecaf116f3c60d8615ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.asignacion_cadena</definition>
+        <argsstring>(String op1, String op2)</argsstring>
+        <name>asignacion_cadena</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>op2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="68" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a123bc25fd5c42d32ba2997a4a0413226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.asignacion</definition>
+        <argsstring>(String op1, String op2)</argsstring>
+        <name>asignacion</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>op2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="75" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ae218b9b85f0bd33c78e838fb7050b5d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.saltoIncondicional</definition>
+        <argsstring>(String etiqueta)</argsstring>
+        <name>saltoIncondicional</name>
+        <param>
+          <type>String</type>
+          <declname>etiqueta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="79" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a9562cbe1811db849e7b0541d76457e73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.saltoCondicional</definition>
+        <argsstring>(String ident, String etiqueta)</argsstring>
+        <name>saltoCondicional</name>
+        <param>
+          <type>String</type>
+          <declname>ident</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>etiqueta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="84" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ab7ec91ed4806f0cb841d193e6767aa10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.retorno</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>retorno</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="89" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a4060ef6a5f9dbd6c7f8a95de1ced5f38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.meteEnArray</definition>
+        <argsstring>(String array, String nombre, String num)</argsstring>
+        <name>meteEnArray</name>
+        <param>
+          <type>String</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="96" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1aabe96c01aa1c03ccaa6551718d8db9cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.sacaDeArray</definition>
+        <argsstring>(String array, String nombre, String num)</argsstring>
+        <name>sacaDeArray</name>
+        <param>
+          <type>String</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="101" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a7b7692a07ae2e8376057f8622fc8f46b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.funcion_en_terceto</definition>
+        <argsstring>(String nombre, int num_par)</argsstring>
+        <name>funcion_en_terceto</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_par</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="111" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a5ca68fa3dcd5f0ef95807f1568f82d14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.Init_parametros</definition>
+        <argsstring>()</argsstring>
+        <name>Init_parametros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="119" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a1fefb0b217751cdd983637df04a762be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.Fin_parametros</definition>
+        <argsstring>()</argsstring>
+        <name>Fin_parametros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="124" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ac76c58fd1179db3c8a1f2dfbfb09086b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.DirRetornoFuncion</definition>
+        <argsstring>(String temporal)</argsstring>
+        <name>DirRetornoFuncion</name>
+        <param>
+          <type>String</type>
+          <declname>temporal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="130" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a60b873882aa81dd543e44fdb0a2e4e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.DirRetornoMetodo</definition>
+        <argsstring>(String objeto, String temporal)</argsstring>
+        <name>DirRetornoMetodo</name>
+        <param>
+          <type>String</type>
+          <declname>objeto</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>temporal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="135" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="134" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a2bab749700e8de1013dcf8b12bc9cf52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.DirRetornoMetodoPrivado</definition>
+        <argsstring>(String temporal)</argsstring>
+        <name>DirRetornoMetodoPrivado</name>
+        <param>
+          <type>String</type>
+          <declname>temporal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="140" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="139" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ab4ecd9008654bfd5a8c1e1427a80b9b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.ApilarParam</definition>
+        <argsstring>(String parametro)</argsstring>
+        <name>ApilarParam</name>
+        <param>
+          <type>String</type>
+          <declname>parametro</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="147" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a1e04b7f21ac9f1011655e0ae3040a6e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.llamada_subprograma</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>llamada_subprograma</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="153" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a3aef090b426c4cf934948cc90cb85770" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.llamada_metodo</definition>
+        <argsstring>(String etiqueta_metodo)</argsstring>
+        <name>llamada_metodo</name>
+        <param>
+          <type>String</type>
+          <declname>etiqueta_metodo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="159" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="159" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a83729a3805cb14ec9053f5ad85721887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.retorno_subprograma</definition>
+        <argsstring>()</argsstring>
+        <name>retorno_subprograma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="165" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="165" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1aba991f6d17bc64d2ffc15c0095ea3af0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.retorno_metodo</definition>
+        <argsstring>()</argsstring>
+        <name>retorno_metodo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="171" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="171" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1abeb610cf18f454607f8be0af32661fca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.putCadena</definition>
+        <argsstring>(String op1)</argsstring>
+        <name>putCadena</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="178" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a06d29250a6285315eb244f55be96b07f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.putEntero</definition>
+        <argsstring>(String op1)</argsstring>
+        <name>putEntero</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="183" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="183" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ad72c9a74a8be43920df799e0852ed1ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.putSaltoLinea</definition>
+        <argsstring>()</argsstring>
+        <name>putSaltoLinea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="188" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a3709bba0826f017a1c0d83060cb592ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.putBooleano</definition>
+        <argsstring>(String op1)</argsstring>
+        <name>putBooleano</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="193" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="193" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a30e8e2bcedcb06dbabb49728dcfecfa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.readExpresion</definition>
+        <argsstring>(String op1)</argsstring>
+        <name>readExpresion</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="198" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="198" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1af56568c8d4d6b8195478b53fff05831a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.not</definition>
+        <argsstring>(String op1, String temporal)</argsstring>
+        <name>not</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>temporal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="202" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="202" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1aa8d3fec113fbe5feccdc342adad493f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.devValor</definition>
+        <argsstring>(String op1)</argsstring>
+        <name>devValor</name>
+        <param>
+          <type>String</type>
+          <declname>op1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="206" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1a7fe30693df2d92679d4e002d2fef6ef4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.termina_Main</definition>
+        <argsstring>()</argsstring>
+        <name>termina_Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="210" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tercetos_1ac5699732cacc55f5ee1a6169374ee556" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Tercetos.da_valor_temp</definition>
+        <argsstring>(String temporal, String valor)</argsstring>
+        <name>da_valor_temp</name>
+        <param>
+          <type>String</type>
+          <declname>temporal</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="214" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="214" bodyend="216"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" line="3" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tercetos.java" bodystart="3" bodyend="218"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_tercetos_1ab4ecd9008654bfd5a8c1e1427a80b9b4" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>ApilarParam</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a123bc25fd5c42d32ba2997a4a0413226" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>asignacion</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1ad1711317bac0cecaf116f3c60d8615ee" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>asignacion_cadena</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a24f6308b16a99f4066995d74143e3e59" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>asignacion_valor</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a3795738c55517f9900a0f700dbb8c952" prot="package" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>c_etiqueta</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1aa76dc5737f466cd03d520f2576fc072d" prot="package" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>c_temporal</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1ac5699732cacc55f5ee1a6169374ee556" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>da_valor_temp</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1acaa58f3b5d750d25b12ec994e18b2f07" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>darEtiqueta</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a7c0052d7e9f94db3f537bfaebfc7f48b" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>darTemporal</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1aa8d3fec113fbe5feccdc342adad493f1" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>devValor</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1ac76c58fd1179db3c8a1f2dfbfb09086b" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>DirRetornoFuncion</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a60b873882aa81dd543e44fdb0a2e4e2d" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>DirRetornoMetodo</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a2bab749700e8de1013dcf8b12bc9cf52" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>DirRetornoMetodoPrivado</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1af3b976c23d4f086fcbc038d079e1515f" prot="package" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>etiqueta</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1af4ae67efa55266981308b0fd49b502cb" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>EtiquetaMetodo</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1aeb68becb577685422f80e072766570b0" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>EtiquetaSubprograma</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a1fefb0b217751cdd983637df04a762be" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>Fin_parametros</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a7b7692a07ae2e8376057f8622fc8f46b" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>funcion_en_terceto</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a5ca68fa3dcd5f0ef95807f1568f82d14" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>Init_parametros</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1abc9d60655331f1347ad9e686e2822afb" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>InsertarEtiqueta</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a3aef090b426c4cf934948cc90cb85770" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>llamada_metodo</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a1e04b7f21ac9f1011655e0ae3040a6e2" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>llamada_subprograma</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a4060ef6a5f9dbd6c7f8a95de1ced5f38" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>meteEnArray</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1af56568c8d4d6b8195478b53fff05831a" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>not</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a91ffaf12f421bd45bd7c35e7de44cac8" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>operacionBinaria</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a823001e4b3c3cce467b36a5443306aa7" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>operacionUnaria</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a3709bba0826f017a1c0d83060cb592ba" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>putBooleano</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1abeb610cf18f454607f8be0af32661fca" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>putCadena</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a06d29250a6285315eb244f55be96b07f" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>putEntero</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1ad72c9a74a8be43920df799e0852ed1ce" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>putSaltoLinea</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a30e8e2bcedcb06dbabb49728dcfecfa6" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>readExpresion</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1ab7ec91ed4806f0cb841d193e6767aa10" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>retorno</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1aba991f6d17bc64d2ffc15c0095ea3af0" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>retorno_metodo</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a83729a3805cb14ec9053f5ad85721887" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>retorno_subprograma</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1aabe96c01aa1c03ccaa6551718d8db9cc" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>sacaDeArray</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a9562cbe1811db849e7b0541d76457e73" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>saltoCondicional</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1ae218b9b85f0bd33c78e838fb7050b5d0" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>saltoIncondicional</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a3549b28cd5de3d82c6289ba01de90165" prot="package" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>temporal</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1aa3ead599aca0803d35af5af3cda9f0f2" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>Tercetos</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a7fe30693df2d92679d4e002d2fef6ef4" prot="public" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>termina_Main</name></member>
+      <member refid="classcompilationunit_1_1_tercetos_1a61d10f91cbc75571f939521ea098d6a8" prot="package" virt="non-virtual"><scope>compilationunit::Tercetos</scope><name>union</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

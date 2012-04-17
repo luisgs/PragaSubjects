@@ -1,0 +1,59 @@
+#month	revenue [thousands CZK]
+#main dishes
+Jan	62
+Feb	59
+Mar	60
+Apr	52
+May	48
+Jun	39
+Jul	36
+Aug        34
+Sep	42
+Oct	45
+Nov	52
+Dec	56
+
+
+#salads
+Jan 	6
+Feb	6
+Mar 	8
+Apr 	10
+May 	12
+Jun 	15
+Jul	22
+Aug 	23
+Sep	16
+Oct 	10
+Nov 	9
+Dec 	7
+
+
+#beer
+Jan	20
+Feb	22
+Mar	30
+Apr	40
+May	70
+Jun	80
+Jul	90
+Aug	88
+Sep	93
+Oct	80
+Nov	50
+Dec	42
+
+
+#whiskey
+Jan	32
+Feb	28
+Mar	20
+Apr	14
+May	8
+Jun	6
+Jul	5
+Aug	6
+Sep	9
+Oct	13
+Nov	18
+Dec	26

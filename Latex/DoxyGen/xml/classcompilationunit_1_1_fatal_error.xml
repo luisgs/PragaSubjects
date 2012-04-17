@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_fatal_error" kind="class" prot="package">
+    <compoundname>compilationunit::FatalError</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_fatal_error_1a3c757b87c7c4c1b0c33eb9adce2f0536" prot="public" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long compilationunit.FatalError.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer> 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2606" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2606" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_fatal_error_1a787b54d8eca4f63d2c7d3a1715c95dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.FatalError.FatalError</definition>
+        <argsstring>(String s)</argsstring>
+        <name>FatalError</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2607" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2607" bodyend="2607"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2605" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2605" bodyend="2608"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_fatal_error_1a787b54d8eca4f63d2c7d3a1715c95dfd" prot="public" virt="non-virtual"><scope>compilationunit::FatalError</scope><name>FatalError</name></member>
+      <member refid="classcompilationunit_1_1_fatal_error_1a3c757b87c7c4c1b0c33eb9adce2f0536" prot="public" virt="non-virtual"><scope>compilationunit::FatalError</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

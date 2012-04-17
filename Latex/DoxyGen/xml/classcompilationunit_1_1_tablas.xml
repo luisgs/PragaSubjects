@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_tablas" kind="class" prot="public">
+    <compoundname>compilationunit::Tablas</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_tablas_1a0d058ad5e446716ebc52b881df73c967" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.Tablas.ambito_global</definition>
+        <argsstring></argsstring>
+        <name>ambito_global</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="6" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_tablas_1a64c0b7815cd0726278d1bbda1132d636" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.Tablas.ambito_actual</definition>
+        <argsstring></argsstring>
+        <name>ambito_actual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="7" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a33fb28f7ad9eeb4c234386018640de45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.Tablas.Tablas</definition>
+        <argsstring>()</argsstring>
+        <name>Tablas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a04dc1a0224f42b659053c7a9e6d09e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Tablas.Destruir</definition>
+        <argsstring>()</argsstring>
+        <name>Destruir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="16" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a892cd1103eabce4d1e121d2b4e1130e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.Tablas.GetAmbitoActual</definition>
+        <argsstring>()</argsstring>
+        <name>GetAmbitoActual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="22" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a0aafb8af97bd165586540636d8b93b82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.Tablas.GetAmbitoGlobal</definition>
+        <argsstring>()</argsstring>
+        <name>GetAmbitoGlobal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="27" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a9a55de53156f13afc16439944c90fd4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Tablas.NuevoAmbito</definition>
+        <argsstring>(Simbolo simbolo)</argsstring>
+        <name>NuevoAmbito</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="32" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1acfac422799fa19774bed3bc25a6df918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Tablas.CerrarAmbito</definition>
+        <argsstring>()</argsstring>
+        <name>CerrarAmbito</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="42" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1aa34f2bb9225682ccc4a93baac0b71152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Tablas.InsertarEnActual</definition>
+        <argsstring>(Simbolo simbolo)</argsstring>
+        <name>InsertarEnActual</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="49" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="48" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a4d93471ce954ae86bc5bc98f64a1ae42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Tablas.InsertarEnAmbitoPadre</definition>
+        <argsstring>(Simbolo simbolo)</argsstring>
+        <name>InsertarEnAmbitoPadre</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="61" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a20f02d123e055b13678f71899cf12803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Tablas.GetSimboloRecur</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>GetSimboloRecur</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="75" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="73" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a5d1e46341928e47cb40085e45d3121b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean compilationunit.Tablas.EstaRecur</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>EstaRecur</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="97" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="93" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1ad53bee73def9dc52406d9dafa2fd3297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean compilationunit.Tablas.EstaEnActual</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>EstaEnActual</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="119" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1af8a22e50fe59c96448e44c5892c31176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Tablas.GetSimboloActual</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>GetSimboloActual</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="124" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_tablas_1a50c78f1c47ce210d7760c10f767d4570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Tablas.AbrirAmbito</definition>
+        <argsstring>(TablaSimbolos ambito_a_abrir)</argsstring>
+        <name>AbrirAmbito</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+          <declname>ambito_a_abrir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="129" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="128" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="140">
+        <label>compilationunit.TablaSimbolos</label>
+        <link refid="classcompilationunit_1_1_tabla_simbolos"/>
+        <childnode refid="141" relation="usage">
+          <edgelabel>tabla</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>simbolo_asociado</edgelabel>
+        </childnode>
+        <childnode refid="140" relation="usage">
+          <edgelabel>ambito_padre</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>Vector</label>
+      </node>
+      <node id="139">
+        <label>compilationunit.Tablas</label>
+        <link refid="classcompilationunit_1_1_tablas"/>
+        <childnode refid="140" relation="usage">
+          <edgelabel>ambito_actual</edgelabel>
+          <edgelabel>ambito_global</edgelabel>
+        </childnode>
+      </node>
+      <node id="142">
+        <label>compilationunit.Simbolo</label>
+        <link refid="classcompilationunit_1_1_simbolo"/>
+        <childnode refid="141" relation="usage">
+          <edgelabel>atributos</edgelabel>
+          <edgelabel>parametros</edgelabel>
+          <edgelabel>valor</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>clase_perteneciente</edgelabel>
+          <edgelabel>clase_devuelta</edgelabel>
+          <edgelabel>objeto_perteneciente</edgelabel>
+        </childnode>
+        <childnode refid="140" relation="usage">
+          <edgelabel>ambito_asociado</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" line="4" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Tablas.java" bodystart="4" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_tablas_1a50c78f1c47ce210d7760c10f767d4570" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>AbrirAmbito</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a64c0b7815cd0726278d1bbda1132d636" prot="private" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>ambito_actual</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a0d058ad5e446716ebc52b881df73c967" prot="private" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>ambito_global</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1acfac422799fa19774bed3bc25a6df918" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>CerrarAmbito</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a04dc1a0224f42b659053c7a9e6d09e96" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>Destruir</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1ad53bee73def9dc52406d9dafa2fd3297" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>EstaEnActual</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a5d1e46341928e47cb40085e45d3121b8" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>EstaRecur</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a892cd1103eabce4d1e121d2b4e1130e4" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>GetAmbitoActual</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a0aafb8af97bd165586540636d8b93b82" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>GetAmbitoGlobal</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1af8a22e50fe59c96448e44c5892c31176" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>GetSimboloActual</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a20f02d123e055b13678f71899cf12803" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>GetSimboloRecur</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1aa34f2bb9225682ccc4a93baac0b71152" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>InsertarEnActual</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a4d93471ce954ae86bc5bc98f64a1ae42" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>InsertarEnAmbitoPadre</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a9a55de53156f13afc16439944c90fd4d" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>NuevoAmbito</name></member>
+      <member refid="classcompilationunit_1_1_tablas_1a33fb28f7ad9eeb4c234386018640de45" prot="public" virt="non-virtual"><scope>compilationunit::Tablas</scope><name>Tablas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

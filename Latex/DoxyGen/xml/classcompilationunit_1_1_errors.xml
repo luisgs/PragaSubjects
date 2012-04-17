@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_errors" kind="class" prot="package">
+    <compoundname>compilationunit::Errors</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_errors_1abd4ff7c6e32c9b776c167249d0f7a4b9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Errors.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2477" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_errors_1a02c3d673fc0b3f8309fa28b0ebc95413" prot="public" static="no" mutable="no">
+        <type>java.io.PrintStream</type>
+        <definition>java.io.PrintStream compilationunit.Errors.errorStream</definition>
+        <argsstring></argsstring>
+        <name>errorStream</name>
+        <initializer> System.out</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2478" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_errors_1ae63e3b8ae152dfcddb7e3e33f28bae14" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Errors.errMsgFormat</definition>
+        <argsstring></argsstring>
+        <name>errMsgFormat</name>
+        <initializer>&quot;-- line {0} col {1}: {2}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2479" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2479" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_errors_1ac5b9e08986295d6f296ec6bf95fa78c7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Errors.printMsg</definition>
+        <argsstring>(int line, int column, String msg)</argsstring>
+        <name>printMsg</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2481" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2481" bodyend="2490"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_errors_1ac2053f3bb5a53673a70b262e6250246d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Errors.SynErr</definition>
+        <argsstring>(int line, int col, int n)</argsstring>
+        <name>SynErr</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2492" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2492" bodyend="2583"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_errors_1a14664925958cd8c1193ba7d85a1988e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Errors.SemErr</definition>
+        <argsstring>(int line, int col, String s)</argsstring>
+        <name>SemErr</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2585" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2585" bodyend="2588"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_errors_1ab43cf2190bb8ebe8da996fe1479ba3b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Errors.SemErr</definition>
+        <argsstring>(String s)</argsstring>
+        <name>SemErr</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2590" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2590" bodyend="2593"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_errors_1a06d1e1b28fe58ac2e8284dcd192a9ded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Errors.Warning</definition>
+        <argsstring>(int line, int col, String s)</argsstring>
+        <name>Warning</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2595" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2595" bodyend="2597"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_errors_1a85c9a631094f6e4e0263b421232c57d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Errors.Warning</definition>
+        <argsstring>(String s)</argsstring>
+        <name>Warning</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2599" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2599" bodyend="2601"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" line="2476" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Parser.java" bodystart="2476" bodyend="2602"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_errors_1abd4ff7c6e32c9b776c167249d0f7a4b9" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>count</name></member>
+      <member refid="classcompilationunit_1_1_errors_1ae63e3b8ae152dfcddb7e3e33f28bae14" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>errMsgFormat</name></member>
+      <member refid="classcompilationunit_1_1_errors_1a02c3d673fc0b3f8309fa28b0ebc95413" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>errorStream</name></member>
+      <member refid="classcompilationunit_1_1_errors_1ac5b9e08986295d6f296ec6bf95fa78c7" prot="protected" virt="non-virtual"><scope>compilationunit::Errors</scope><name>printMsg</name></member>
+      <member refid="classcompilationunit_1_1_errors_1a14664925958cd8c1193ba7d85a1988e8" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>SemErr</name></member>
+      <member refid="classcompilationunit_1_1_errors_1ab43cf2190bb8ebe8da996fe1479ba3b7" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>SemErr</name></member>
+      <member refid="classcompilationunit_1_1_errors_1ac2053f3bb5a53673a70b262e6250246d" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>SynErr</name></member>
+      <member refid="classcompilationunit_1_1_errors_1a06d1e1b28fe58ac2e8284dcd192a9ded" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>Warning</name></member>
+      <member refid="classcompilationunit_1_1_errors_1a85c9a631094f6e4e0263b421232c57d5" prot="public" virt="non-virtual"><scope>compilationunit::Errors</scope><name>Warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

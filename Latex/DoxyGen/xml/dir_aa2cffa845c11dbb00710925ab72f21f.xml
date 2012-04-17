@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_aa2cffa845c11dbb00710925ab72f21f" kind="dir">
+    <compoundname>/home/luisgs/Documentos/CompiLuTor/CocoNuestro/</compoundname>
+    <innerdir refid="dir_dd111667cd0b0522ccee70bf4e2e041b">/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/"/>
+  </compounddef>
+</doxygen>

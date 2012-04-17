@@ -1,0 +1,9 @@
+Creada sala: "Turing"
+Creada sala: "Gono"
+ERROR: La sala "PEPE" no ha podido ser eliminada
+Eliminada sala: "Turing"
+ERROR: La sala "Turing" no ha podido ser eliminada
+Agregado Cliente: 12345678A
+ERROR: El cliente 12345678A no ha podido ser agregado
+Eliminado cliente: 12345678A
+Eliminado cliente: 14579345B

@@ -1,0 +1,1196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_simbolo" kind="class" prot="public">
+    <compoundname>compilationunit::Simbolo</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1aac7be9e951db6bf43e3fe3220743bb2f" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.undef</definition>
+        <argsstring></argsstring>
+        <name>undef</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a7bec0344157c08e189645861a8600d5f" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.entera</definition>
+        <argsstring></argsstring>
+        <name>entera</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ac11ee6530a9c9b434812322203845524" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.bool</definition>
+        <argsstring></argsstring>
+        <name>bool</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a602e805c9cb8eb9f5b02a883455ceaf1" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.cadena</definition>
+        <argsstring></argsstring>
+        <name>cadena</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ab17cb04f23500fc64b49497909eca8e0" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.vacio</definition>
+        <argsstring></argsstring>
+        <name>vacio</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a8238a20958222c2a2896321a91740eec" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.identificador</definition>
+        <argsstring></argsstring>
+        <name>identificador</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a7ff96fc5d28ddffe92e999dedace2172" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.vector</definition>
+        <argsstring></argsstring>
+        <name>vector</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ab7a9626f35343622c6f32f8f8a7575d5" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="13" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ad67451cb3bb9fbd9fef521a4812e0cfa" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.funcion</definition>
+        <argsstring></argsstring>
+        <name>funcion</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="13" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a865dc9a1031d7f19bd302eb90649efec" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.clase</definition>
+        <argsstring></argsstring>
+        <name>clase</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="13" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a7e8a4fe661f65285b74d820424355669" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.metodo</definition>
+        <argsstring></argsstring>
+        <name>metodo</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="13" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a9f223da341d4f72fdbd29f48d82339e4" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.parametro</definition>
+        <argsstring></argsstring>
+        <name>parametro</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="13" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1aaa045765c55f6b73abee753b1908199d" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.privado</definition>
+        <argsstring></argsstring>
+        <name>privado</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="15" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a5c89aed00c7659cf9d6d3d558527304d" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int compilationunit.Simbolo.publico</definition>
+        <argsstring></argsstring>
+        <name>publico</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="15" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a6ef1ad8db32708ca66b39172f16de347" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Simbolo.nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="18" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a41af9ad6c9fa1f20b5d1a0872fbf5ea7" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Simbolo.etiqueta</definition>
+        <argsstring></argsstring>
+        <name>etiqueta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="19" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a052f56e9e719bf7694190fac48ecf449" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="20" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a82145ce638ee7d6b32e604f78f28e8b1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.kind</definition>
+        <argsstring></argsstring>
+        <name>kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="21" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1aca76922a7bdc453a94d7bc60d1f70e6a" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean compilationunit.Simbolo.inicializada</definition>
+        <argsstring></argsstring>
+        <name>inicializada</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="22" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ae7d0135c45d739944b995473c2a7f142" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean compilationunit.Simbolo.es_vector</definition>
+        <argsstring></argsstring>
+        <name>es_vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="23" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a70addae39f8dc80304c1b93c74ef283d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.tamano</definition>
+        <argsstring></argsstring>
+        <name>tamano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="24" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a13947891140207d673e7b8d1381eadfb" prot="private" static="no" mutable="no">
+        <type>Vector</type>
+        <definition>Vector compilationunit.Simbolo.valor</definition>
+        <argsstring></argsstring>
+        <name>valor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="25" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ad3848087b5d49c758842aa7543d66f0a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="26" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a40370e10f4542ecb290f230a7b014b08" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.column</definition>
+        <argsstring></argsstring>
+        <name>column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="27" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1aa09b5577402625eb0142e13411fa0bb2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.nparametros</definition>
+        <argsstring></argsstring>
+        <name>nparametros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="28" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a9a1d155e927021acf1af90ab2becf7f0" prot="private" static="no" mutable="no">
+        <type>Vector</type>
+        <definition>Vector compilationunit.Simbolo.parametros</definition>
+        <argsstring></argsstring>
+        <name>parametros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="30" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a4bb553b73467791620928d2bf6adce48" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="32" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a4f681bc13cd152eab64d7b622f8fe528" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.tiporetorno</definition>
+        <argsstring></argsstring>
+        <name>tiporetorno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="33" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1aff3a1a4b2768d307a2767a54e56d19e2" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.clase_perteneciente</definition>
+        <argsstring></argsstring>
+        <name>clase_perteneciente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="34" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a4c3604f164faf2c30529958b8de01aba" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.clase_devuelta</definition>
+        <argsstring></argsstring>
+        <name>clase_devuelta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="37" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a06536df58f0ee85ee232ecdc79d21ae9" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.Simbolo.ambito_asociado</definition>
+        <argsstring></argsstring>
+        <name>ambito_asociado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="38" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a3b98193e53aa0ec45a1afb99c2da6984" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.desplazamiento</definition>
+        <argsstring></argsstring>
+        <name>desplazamiento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="40" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1a698493bf6a86f90a148d1d605069b742" prot="private" static="no" mutable="no">
+        <type>Vector</type>
+        <definition>Vector compilationunit.Simbolo.atributos</definition>
+        <argsstring></argsstring>
+        <name>atributos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="42" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_simbolo_1ab5b0677dac75e9a9de66987f94939be2" prot="private" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.objeto_perteneciente</definition>
+        <argsstring></argsstring>
+        <name>objeto_perteneciente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="43" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a26bd95e8721b3e39e6354f57b6188145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.Simbolo.Simbolo</definition>
+        <argsstring>(String nombre, int type, int kind)</argsstring>
+        <name>Simbolo</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="47" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="47" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a2236c1bed6efbeb35f2e9e44f0ac17f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetNombre</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>SetNombre</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="66" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a0a6ff56c7a1c3d916c91dd5c758bec44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetType</definition>
+        <argsstring>(int type)</argsstring>
+        <name>SetType</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="72" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a7e1ea284a391ef76eff34255eeac35b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetKind</definition>
+        <argsstring>(int kind)</argsstring>
+        <name>SetKind</name>
+        <param>
+          <type>int</type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="76" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ad59e69d8765bfc1dbfaba33cde309b2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetLine</definition>
+        <argsstring>(int line)</argsstring>
+        <name>SetLine</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="80" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a6635d13173ddfe5eac14c099f275eb74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetColumn</definition>
+        <argsstring>(int column)</argsstring>
+        <name>SetColumn</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="84" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1aaf4f85e9856d2377844d6a419de6ffe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetNParametros</definition>
+        <argsstring>(int nparametros)</argsstring>
+        <name>SetNParametros</name>
+        <param>
+          <type>int</type>
+          <declname>nparametros</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="88" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a7492a59393c953a1dbe36892a947f963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetVisibilidad</definition>
+        <argsstring>(int visible)</argsstring>
+        <name>SetVisibilidad</name>
+        <param>
+          <type>int</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="92" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a43e2f53555d992ef8546e6fbf0be2811" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetTipoRetorno</definition>
+        <argsstring>(int tiporetorno)</argsstring>
+        <name>SetTipoRetorno</name>
+        <param>
+          <type>int</type>
+          <declname>tiporetorno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="98" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a87113d946c2127a7a7a23377ae6f562c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetToVector</definition>
+        <argsstring>(int tamano)</argsstring>
+        <name>SetToVector</name>
+        <param>
+          <type>int</type>
+          <declname>tamano</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="103" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a8989db5deb35ce1fb348efe43e354c5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetValor</definition>
+        <argsstring>(Object valor)</argsstring>
+        <name>SetValor</name>
+        <param>
+          <type>Object</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="117" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="116" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ac26e8979d8a864966292511a095f8e65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetClase</definition>
+        <argsstring>(Simbolo simbolo)</argsstring>
+        <name>SetClase</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="123" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="122" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ad6ebacbd77a0e48ce64a762d9830780e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetAmbitoAsociado</definition>
+        <argsstring>(TablaSimbolos ambito_asociado)</argsstring>
+        <name>SetAmbitoAsociado</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+          <declname>ambito_asociado</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="147" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a420bc9260b062f70667a3a42a7b6b762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetClaseDevuelta</definition>
+        <argsstring>(Simbolo simbolo_clase)</argsstring>
+        <name>SetClaseDevuelta</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo_clase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="152" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1aa2b88742b474aebac35721ac02a8067e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetDesplazamiento</definition>
+        <argsstring>(int desplazamiento)</argsstring>
+        <name>SetDesplazamiento</name>
+        <param>
+          <type>int</type>
+          <declname>desplazamiento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="157" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a2536b2a6da0e98ea640231a9306792d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.SetEtiqueta</definition>
+        <argsstring>(String etiqueta)</argsstring>
+        <name>SetEtiqueta</name>
+        <param>
+          <type>String</type>
+          <declname>etiqueta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="162" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a135a925b454ff1f1a7ab95bc515662c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Simbolo.GetNombre</definition>
+        <argsstring>()</argsstring>
+        <name>GetNombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="166" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1aaa81048a6ebb1e8e6d57b0dc52120185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetType</definition>
+        <argsstring>()</argsstring>
+        <name>GetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="173" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a51452f5b00c8668292e875004015c9df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetKind</definition>
+        <argsstring>()</argsstring>
+        <name>GetKind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="180" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="180" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ae9d9cd796a98a69223e66044bb402314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetLine</definition>
+        <argsstring>()</argsstring>
+        <name>GetLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="187" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="187" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1af13b83fbf9cbd4f6498d003fca122f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetColumn</definition>
+        <argsstring>()</argsstring>
+        <name>GetColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="194" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="194" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a31033bbe776f34e39f980e292629ebc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetNParametros</definition>
+        <argsstring>()</argsstring>
+        <name>GetNParametros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="201" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="201" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1af29829252bd0f20948c5d970b0f5f42e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetVisibilidad</definition>
+        <argsstring>()</argsstring>
+        <name>GetVisibilidad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="208" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="208" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a54266236254eaa2a6c53c2c4d329f3c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetTipoRetorno</definition>
+        <argsstring>()</argsstring>
+        <name>GetTipoRetorno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="216" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="215" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ac8d3892ba550b8af552ecd1d6693fd17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetTipoParametro</definition>
+        <argsstring>(int numero)</argsstring>
+        <name>GetTipoParametro</name>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="224" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a9ea623b10566bb7d59556795b1c46151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean compilationunit.Simbolo.Es_Vector</definition>
+        <argsstring>()</argsstring>
+        <name>Es_Vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="229" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="228" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ae99309e46cb0f02cc6bde5f98ab2c6f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object compilationunit.Simbolo.GetValor</definition>
+        <argsstring>()</argsstring>
+        <name>GetValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="237" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="236" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1aaee2496da6865dbc029a1de40b169a69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object compilationunit.Simbolo.GetValor</definition>
+        <argsstring>(int posicion)</argsstring>
+        <name>GetValor</name>
+        <param>
+          <type>int</type>
+          <declname>posicion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="249" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="248" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a229e27a06decef374960fd5448bd3f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector</type>
+        <definition>Vector compilationunit.Simbolo.GetParametros</definition>
+        <argsstring>()</argsstring>
+        <name>GetParametros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="258" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="257" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a3ab44d4f89a5e712415edbd7bbf510ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.GetParametros</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>GetParametros</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="267" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="266" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ac230f7f4314834af8f8cfc30c9220ab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector</type>
+        <definition>Vector compilationunit.Simbolo.GetPosicionesVector</definition>
+        <argsstring>()</argsstring>
+        <name>GetPosicionesVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="284" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1af117b210633a4b60f2ad92de45b22766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.GetClase</definition>
+        <argsstring>()</argsstring>
+        <name>GetClase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="289" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="288" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1aab729d2536b97d7ff5ede35641b3e32f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.Simbolo.GetAmbitoAsociado</definition>
+        <argsstring>()</argsstring>
+        <name>GetAmbitoAsociado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="298" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="297" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1acddcffd906ebcc8ca43bbbc986e35576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.GetClaseDevuelta</definition>
+        <argsstring>()</argsstring>
+        <name>GetClaseDevuelta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="307" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="306" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ae7ced5436f16fabffa11015acf58609d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.GetDesplazamiento</definition>
+        <argsstring>()</argsstring>
+        <name>GetDesplazamiento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="316" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="315" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a5320bfdefe6f3dc09dd33a96edf09218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.Simbolo.GetEtiqueta</definition>
+        <argsstring>()</argsstring>
+        <name>GetEtiqueta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="324" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="323" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1aef1a6409861266e36ac44e59f752dde7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.GetObjetoPerteneciente</definition>
+        <argsstring>()</argsstring>
+        <name>GetObjetoPerteneciente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="329" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="328" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1ae5747fac83af5af1ff67b61f0c4176e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+        <definition>Simbolo compilationunit.Simbolo.GetAtributo</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>GetAtributo</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="334" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="333" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a21f3d365346164bafd5eafd3f36c81d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.Simbolo.AnadirParametro</definition>
+        <argsstring>(Simbolo simbolo)</argsstring>
+        <name>AnadirParametro</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_simbolo" kindref="compound">Simbolo</ref></type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="354" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_simbolo_1a60f38000ed43821251240e5d9c361c95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.Simbolo.Actualiza_Tamano</definition>
+        <argsstring>()</argsstring>
+        <name>Actualiza_Tamano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="360" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="359" bodyend="398"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="134">
+        <label>compilationunit.TablaSimbolos</label>
+        <link refid="classcompilationunit_1_1_tabla_simbolos"/>
+        <childnode refid="133" relation="usage">
+          <edgelabel>tabla</edgelabel>
+        </childnode>
+        <childnode refid="132" relation="usage">
+          <edgelabel>simbolo_asociado</edgelabel>
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>ambito_padre</edgelabel>
+        </childnode>
+      </node>
+      <node id="133">
+        <label>Vector</label>
+      </node>
+      <node id="132">
+        <label>compilationunit.Simbolo</label>
+        <link refid="classcompilationunit_1_1_simbolo"/>
+        <childnode refid="133" relation="usage">
+          <edgelabel>atributos</edgelabel>
+          <edgelabel>parametros</edgelabel>
+          <edgelabel>valor</edgelabel>
+        </childnode>
+        <childnode refid="132" relation="usage">
+          <edgelabel>clase_perteneciente</edgelabel>
+          <edgelabel>clase_devuelta</edgelabel>
+          <edgelabel>objeto_perteneciente</edgelabel>
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>ambito_asociado</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" line="8" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Simbolo.java" bodystart="8" bodyend="401"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_simbolo_1a60f38000ed43821251240e5d9c361c95" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>Actualiza_Tamano</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a06536df58f0ee85ee232ecdc79d21ae9" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>ambito_asociado</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a21f3d365346164bafd5eafd3f36c81d8" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>AnadirParametro</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a698493bf6a86f90a148d1d605069b742" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>atributos</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ac11ee6530a9c9b434812322203845524" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>bool</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a602e805c9cb8eb9f5b02a883455ceaf1" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>cadena</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a865dc9a1031d7f19bd302eb90649efec" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>clase</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a4c3604f164faf2c30529958b8de01aba" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>clase_devuelta</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aff3a1a4b2768d307a2767a54e56d19e2" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>clase_perteneciente</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a40370e10f4542ecb290f230a7b014b08" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>column</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a3b98193e53aa0ec45a1afb99c2da6984" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>desplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a7bec0344157c08e189645861a8600d5f" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>entera</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ae7d0135c45d739944b995473c2a7f142" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>es_vector</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a9ea623b10566bb7d59556795b1c46151" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>Es_Vector</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a41af9ad6c9fa1f20b5d1a0872fbf5ea7" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>etiqueta</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ad67451cb3bb9fbd9fef521a4812e0cfa" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>funcion</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aab729d2536b97d7ff5ede35641b3e32f" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetAmbitoAsociado</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ae5747fac83af5af1ff67b61f0c4176e0" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetAtributo</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1af117b210633a4b60f2ad92de45b22766" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetClase</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1acddcffd906ebcc8ca43bbbc986e35576" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetClaseDevuelta</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1af13b83fbf9cbd4f6498d003fca122f15" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetColumn</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ae7ced5436f16fabffa11015acf58609d" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetDesplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a5320bfdefe6f3dc09dd33a96edf09218" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetEtiqueta</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a51452f5b00c8668292e875004015c9df" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetKind</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ae9d9cd796a98a69223e66044bb402314" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetLine</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a135a925b454ff1f1a7ab95bc515662c5" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetNombre</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a31033bbe776f34e39f980e292629ebc2" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetNParametros</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aef1a6409861266e36ac44e59f752dde7" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetObjetoPerteneciente</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a229e27a06decef374960fd5448bd3f7d" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetParametros</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a3ab44d4f89a5e712415edbd7bbf510ca" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetParametros</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ac230f7f4314834af8f8cfc30c9220ab2" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetPosicionesVector</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ac8d3892ba550b8af552ecd1d6693fd17" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetTipoParametro</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a54266236254eaa2a6c53c2c4d329f3c3" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetTipoRetorno</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aaa81048a6ebb1e8e6d57b0dc52120185" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetType</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ae99309e46cb0f02cc6bde5f98ab2c6f3" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetValor</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aaee2496da6865dbc029a1de40b169a69" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetValor</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1af29829252bd0f20948c5d970b0f5f42e" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>GetVisibilidad</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a8238a20958222c2a2896321a91740eec" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>identificador</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aca76922a7bdc453a94d7bc60d1f70e6a" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>inicializada</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a82145ce638ee7d6b32e604f78f28e8b1" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>kind</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ad3848087b5d49c758842aa7543d66f0a" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>line</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a7e8a4fe661f65285b74d820424355669" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>metodo</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a6ef1ad8db32708ca66b39172f16de347" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>nombre</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aa09b5577402625eb0142e13411fa0bb2" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>nparametros</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ab5b0677dac75e9a9de66987f94939be2" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>objeto_perteneciente</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a9f223da341d4f72fdbd29f48d82339e4" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>parametro</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a9a1d155e927021acf1af90ab2becf7f0" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>parametros</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aaa045765c55f6b73abee753b1908199d" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>privado</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a5c89aed00c7659cf9d6d3d558527304d" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>publico</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ad6ebacbd77a0e48ce64a762d9830780e" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetAmbitoAsociado</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ac26e8979d8a864966292511a095f8e65" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetClase</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a420bc9260b062f70667a3a42a7b6b762" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetClaseDevuelta</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a6635d13173ddfe5eac14c099f275eb74" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetColumn</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aa2b88742b474aebac35721ac02a8067e" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetDesplazamiento</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a2536b2a6da0e98ea640231a9306792d2" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetEtiqueta</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a7e1ea284a391ef76eff34255eeac35b9" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetKind</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ad59e69d8765bfc1dbfaba33cde309b2c" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetLine</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a2236c1bed6efbeb35f2e9e44f0ac17f1" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetNombre</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aaf4f85e9856d2377844d6a419de6ffe9" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetNParametros</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a43e2f53555d992ef8546e6fbf0be2811" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetTipoRetorno</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a87113d946c2127a7a7a23377ae6f562c" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetToVector</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a0a6ff56c7a1c3d916c91dd5c758bec44" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetType</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a8989db5deb35ce1fb348efe43e354c5e" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetValor</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a7492a59393c953a1dbe36892a947f963" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>SetVisibilidad</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a26bd95e8721b3e39e6354f57b6188145" prot="public" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>Simbolo</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a70addae39f8dc80304c1b93c74ef283d" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>tamano</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a4f681bc13cd152eab64d7b622f8fe528" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>tiporetorno</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a052f56e9e719bf7694190fac48ecf449" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>type</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1aac7be9e951db6bf43e3fe3220743bb2f" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>undef</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ab17cb04f23500fc64b49497909eca8e0" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>vacio</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a13947891140207d673e7b8d1381eadfb" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>valor</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1ab7a9626f35343622c6f32f8f8a7575d5" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>var</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a7ff96fc5d28ddffe92e999dedace2172" prot="package" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>vector</name></member>
+      <member refid="classcompilationunit_1_1_simbolo_1a4bb553b73467791620928d2bf6adce48" prot="private" virt="non-virtual"><scope>compilationunit::Simbolo</scope><name>visible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

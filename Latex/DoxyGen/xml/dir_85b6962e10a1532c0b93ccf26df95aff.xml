@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_85b6962e10a1532c0b93ccf26df95aff" kind="dir">
+    <compoundname>/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/</compoundname>
+    <innerfile refid="dirops_8c">dirops.c</innerfile>
+    <innerfile refid="dirops_8h">dirops.h</innerfile>
+    <innerfile refid="cliente_2rdir_8h">rdir.h</innerfile>
+    <innerfile refid="rls_8c">rls.c</innerfile>
+    <innerfile refid="rls__mix_8c">rls_mix.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/"/>
+  </compounddef>
+</doxygen>

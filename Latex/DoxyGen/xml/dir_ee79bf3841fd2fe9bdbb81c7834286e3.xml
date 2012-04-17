@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_ee79bf3841fd2fe9bdbb81c7834286e3" kind="dir">
+    <compoundname>/home/luisgs/Documentos/Universidad/SOD/</compoundname>
+    <innerdir refid="dir_474e7c7a5fb0ad089593883c97eaaed3">/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/Universidad/SOD/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dirops_8h" kind="file">
+    <compoundname>dirops.h</compoundname>
+    <includedby refid="dirops_8c" local="yes">/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.c</includedby>
+    <includedby refid="rls_8c" local="yes">/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/rls.c</includedby>
+    <includedby refid="rls__mix_8c" local="yes">/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/rls_mix.c</includedby>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dirops_8h_1ab9e6fa677601dee5a58a36a554278a6a" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void RDIR</definition>
+        <argsstring></argsstring>
+        <name>RDIR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.h" line="10" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dirops_8h_1a03cf40004224a730baa0e8757e2c87a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RDIR *</type>
+        <definition>RDIR* r_opendir</definition>
+        <argsstring>(char *dirname)</argsstring>
+        <name>r_opendir</name>
+        <param>
+          <type>char *</type>
+          <declname>dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.h" line="16" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.c" bodystart="10" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="dirops_8h_1ae4d434e042e14de2d4c922fd41a0966b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* r_readdir</definition>
+        <argsstring>(RDIR *dir)</argsstring>
+        <name>r_readdir</name>
+        <param>
+          <type>RDIR *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.h" line="18" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.c" bodystart="82" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="dirops_8h_1a0ed69d58ecd223cbac3b441c31b9f4f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int r_closedir</definition>
+        <argsstring>(RDIR *dir)</argsstring>
+        <name>r_closedir</name>
+        <param>
+          <type>RDIR *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.h" line="20" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.c" bodystart="150" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Definición<sp/>de<sp/>tipos<sp/>y<sp/>prototipos<sp/>para<sp/>las<sp/>operaciones<sp/>de<sp/>acceso<sp/>a</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>directorios.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>NO<sp/>DEBE<sp/>MODIFICARSE<sp/>ESTE<sp/>FICHERO</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Definición<sp/>del<sp/>tipo<sp/>devuelto<sp/>por<sp/>r_opendir<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RDIR;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>Son<sp/>similares<sp/>a<sp/>las<sp/>de<sp/>UNIX,<sp/>excepto<sp/>r_readdir<sp/>que,<sp/>por<sp/>simplicidad,</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>devuelve<sp/>directamente<sp/>el<sp/>nombre<sp/>de<sp/>la<sp/>entrada<sp/>correpondiente<sp/>del<sp/>directorio.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">RDIR<sp/>*r_opendir(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dirname);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*r_readdir(RDIR<sp/>*dir);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r_closedir(RDIR<sp/>*dir);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/cliente/dirops.h"/>
+  </compounddef>
+</doxygen>

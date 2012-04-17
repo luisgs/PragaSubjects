@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_start_states" kind="class" prot="package">
+    <compoundname>compilationunit::StartStates</compoundname>
+    <innerclass refid="classcompilationunit_1_1_start_states_1_1_elem" prot="private">compilationunit::StartStates::Elem</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_start_states_1a23666fb0c57d2066952de96c01e9fcbe" prot="private" static="no" mutable="no">
+        <type>Elem[]</type>
+        <definition>Elem [] compilationunit.StartStates.tab</definition>
+        <argsstring></argsstring>
+        <name>tab</name>
+        <initializer> new Elem[128]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="233" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_start_states_1a0945c5c665355dbc9889bde932afd631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.StartStates.set</definition>
+        <argsstring>(int key, int val)</argsstring>
+        <name>set</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="235" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="235" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1_start_states_1a2eac9d9300a1309dd48c20483bf54e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int compilationunit.StartStates.state</definition>
+        <argsstring>(int key)</argsstring>
+        <name>state</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="241" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="241" bodyend="245"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="137">
+        <label>compilationunit.StartStates.Elem</label>
+        <childnode refid="137" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="136">
+        <label>compilationunit.StartStates</label>
+        <link refid="classcompilationunit_1_1_start_states"/>
+        <childnode refid="137" relation="usage">
+          <edgelabel>tab</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="226" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="226" bodyend="246"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_start_states_1a0945c5c665355dbc9889bde932afd631" prot="public" virt="non-virtual"><scope>compilationunit::StartStates</scope><name>set</name></member>
+      <member refid="classcompilationunit_1_1_start_states_1a2eac9d9300a1309dd48c20483bf54e33" prot="public" virt="non-virtual"><scope>compilationunit::StartStates</scope><name>state</name></member>
+      <member refid="classcompilationunit_1_1_start_states_1a23666fb0c57d2066952de96c01e9fcbe" prot="private" virt="non-virtual"><scope>compilationunit::StartStates</scope><name>tab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

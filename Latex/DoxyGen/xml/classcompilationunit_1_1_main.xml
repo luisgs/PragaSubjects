@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_main" kind="class" prot="public">
+    <compoundname>compilationunit::Main</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_main_1ac6da0f8ec01163ac0e1b7caf0b02f9fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void compilationunit.Main.main</definition>
+        <argsstring>(String[] arg)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Main.java" line="5" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Main.java" bodystart="5" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Main.java" line="3" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Main.java" bodystart="3" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_main_1ac6da0f8ec01163ac0e1b7caf0b02f9fd" prot="public" virt="non-virtual"><scope>compilationunit::Main</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

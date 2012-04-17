@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_token" kind="class" prot="package">
+    <compoundname>compilationunit::Token</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1af7c2e7e2bee99be419210065fd5651d6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Token.kind</definition>
+        <argsstring></argsstring>
+        <name>kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="10" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1a7ae47ae97e60be14a640910629e83636" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Token.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="11" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1aa00436bec1c0579303f47020783606db" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Token.charPos</definition>
+        <argsstring></argsstring>
+        <name>charPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="12" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1aa98347e42fe71da40580ab02a8c4da45" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Token.col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="13" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1a82c172b41a8367d39a1fb46863db00de" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.Token.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="14" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1a0c2be00f067fa90de4b14feb70752c3c" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.Token.val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="15" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_token_1add88f0df57b86c0f2ac6c40bf066b80f" prot="public" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_token" kindref="compound">Token</ref></type>
+        <definition>Token compilationunit.Token.next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="16" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="150">
+        <label>compilationunit.Token</label>
+        <link refid="classcompilationunit_1_1_token"/>
+        <childnode refid="150" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="9" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_token_1aa00436bec1c0579303f47020783606db" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>charPos</name></member>
+      <member refid="classcompilationunit_1_1_token_1aa98347e42fe71da40580ab02a8c4da45" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>col</name></member>
+      <member refid="classcompilationunit_1_1_token_1af7c2e7e2bee99be419210065fd5651d6" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>kind</name></member>
+      <member refid="classcompilationunit_1_1_token_1a82c172b41a8367d39a1fb46863db00de" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>line</name></member>
+      <member refid="classcompilationunit_1_1_token_1add88f0df57b86c0f2ac6c40bf066b80f" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>next</name></member>
+      <member refid="classcompilationunit_1_1_token_1a7ae47ae97e60be14a640910629e83636" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>pos</name></member>
+      <member refid="classcompilationunit_1_1_token_1a0c2be00f067fa90de4b14feb70752c3c" prot="public" virt="non-virtual"><scope>compilationunit::Token</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

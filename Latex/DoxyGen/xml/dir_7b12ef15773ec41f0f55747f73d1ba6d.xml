@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_7b12ef15773ec41f0f55747f73d1ba6d" kind="dir">
+    <compoundname>/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/</compoundname>
+    <innerfile refid="servidor_2rdir_8h">rdir.h</innerfile>
+    <innerfile refid="rdird_01con_01fork_8c">rdird con fork.c</innerfile>
+    <innerfile refid="rdird_8c">rdird.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/"/>
+  </compounddef>
+</doxygen>

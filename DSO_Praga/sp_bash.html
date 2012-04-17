@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"><title>A3B33OSD: BASH project assignmets</title>
+	<style type="text/css">
+		code {background-color:#ddd; display:block; padding:20px;}
+	</style>
+</head>
+<body>
+	<h1><a href="./">AE3B33OSD</a>: Semester projects 1</h1>
+	<h2>Bash script implementation</h2>
+
+	<p>
+		The task is to be solved individually.
+		Available variants follow.
+		When you choose your variant(s), send an e-mail to <a href="mailto:bursam@fel.cvut.cz">bursam@fel.cvut.cz</a> with the following information</p> 
+		<ul>
+      <li>Include the string 'AE3B33OSD' in the e-mail subject. </li>
+		<li>A list of at least three 3 variants (a preference list &mdash; your variant might be already reserved by another student).</li>
+		</ul>
+		<p>You will receive a reply with confirmation.</p>
+		
+	</p>
+	<p>
+	In case of any questions/ambiguities, please ask in time.
+	</p>
+	<p>
+	The solution must be presented personally.
+	</p>
+
+	<h2>Common rules for BASH projects</h2>
+
+	<p>When implementing, you should fulfill the following:
+	<ul>
+		<li> All script inputs are specified as command line arguments (unless explicitly stated) &mdash; the script never asks for file/directory name.</li>
+		<li> Validate the correctness of the script parameter(s). When the parameters are incorrect, print an error message or help.</li>
+		<li> Unless needed, do not create temporary files (an exception is working with archives that must be extracted. Each script must clean its temporary data even in case of failure.</li>
+		<li> Temporary files must be created in a path with sufficient write permissions (that is not always the case when in current directory. (See the <i>mktemp</i> command).</li>
+		<li> When the script creates/overwrites/deletes file, it must not harness any other files (you must test for existence of the files).</li>
+		<li> File types cannot be determined by its suffix.</li>
+		<li> Use <i>stdout</i> and <i>stderr</i>. The <i>stderr</i> should be used not only for error messages, but also for any output that should not mix with the data. The <i>stdout</i> is reserved for output data only.</li>
+		<li> It must be easy to determine the purpose of the script. Implement a <i>-h</i> or <i>--help</i> argument that prints a short help with usage.</li>
+		<li> Mind that directories/paths might be specified relatively or absolutely.</li>
+		<li> Test your script with strings containing spaces. Use quoting when appropriate.</li>
+		<li> Scripts are supposed to be called in a pipe (from another scripts). Do not expect interactive run:
+		<ul>
+			<li> Always return an error code (non-zero value means an error).</li>
+			<li> Do not display prompt when expecting data from <i>stdout.</i></li>
+			<li> Parameters are entered only as command line arguments.</li>
+		</ul></li>
+		<li> Do not copy&amp;paste blocks of similar code. The modification of the code should consume as low time as possible.</li>
+		<li> Name the script accordingly. Inappropriate names are: "bash", "bash1", "john", "example", ...</li>
+		<li> Do not reinvent (reimplement) the wheel (sorting algorithms, ...). Use the standard tools effectively.</li>
+		<li> Stick to the output format specified (see examples).</li>
+	</ul>
+
+	<p><strong>Failure to follow these principles will result in a penalty!</strong></p>	
+
+	<h2>Specification</h2>
+
+    <ol>
+		 <li>
+		 <a name="BASH_1"/>
+		 <p>
+		 Create a shell script that finds all bad symbolic links in the specified directory and subdirectories (i.e. all links that do not point to an existing file) and prints their absolute path to stdout.
+		 Script must have two optional parameters: <em>-r</em> a <em>-a</em>.
+		 When <em>-r</em> is specified, deletes the wrong link.
+		 Parameter <em>-a</em> lists all links (even the correct). Combination of both parameters is not permitted.
+		</p>
+		<p>When the specified directory does not exist or no wrong link is found, print a message to stderr. If working directory is not specified, use the current dir.</p>
+		<p><b>Example.:</b> Output of a script that found two links <i>neex</i> and <i>wrong</i> pointing to non-existent file/directory:</p>
+		<p><code>/home/student/example/neex<br/>/home/student/example/wrong</code></p>
+		<p><em>Hint:</em> See commands <b>find</b> and <b>readlink</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_2"/>
+		Create a shell script for comparing two archives (of type tar.gz). For each file/directory (recursively) from either archive it verifies whether a file/directory of the same name exist in the other archive.		
+		When a subdirectory is missing, do not list it's files.
+      Script outputs a list of filenames that do not have an equivalent in the other archive.
+		<p>When the specified file does not exist (or is not a tar.gz file), outputs an error message. Do not determine the filetype via suffix.</p>
+		<p><b>Example:</b> Output of a script comparing archives <i>arch1.tar.gz</i> and <i>arch2.tar.gz</i> finding different files <i>aa/a.txt</i>, <i>bb/b.txt</i> in <i>arch1.tar.gz</i> and <i>nic.txt</i> in <i>arch2.tar.gz</i>:</p>
+		<p><code>arch1.tar.gz:a/aa.txt<br/>
+			arch1.tar.gz:bb/b.txt<br/>
+			arch2.tar.gz:nic.txt
+		</code></p>
+		<p><em>Hint:</em> See commands <b>find</b> and <b>tar</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_3"/>
+		Create script that finds all files in a given directory (and subdirectories) having the suffix 
+provided and performs one of the following actions: 		
+		<ul>
+			<li>Copies them and changes their suffix, or</li>
+			<li>renames them to use another suffix, or</li>
+			<li>deletes them.</li>
+		</ul>
+		Script has 4 mandatory parameters (3 in case of file deletion):<br>
+		&nbsp;&nbsp;<em>suffix_find</em> [ <em>-c</em> | <em>-m</em> | <em>-r</em> ] <em>ext1 ext2</em>,<br>
+		where extensions <em>ext1</em> and <em>ext2</em> are strings that might containing a dot.
+		Parameter <em>-c</em> stands for copy operation, <em>-m</em> for rename (move) and <em>-r</em> for file deletion.
+		<p>In case of copy/rename script outputs a line for each file in the following format: <br><em>old_filename</em> =&gt; <em>new_filename</em><br>,
+		in case of file deletion, lists the files being deleted.
+		</p>
+		<p>When the provided directory does not exist or in case insufficient permissions for copying (read perm.) or moving (read and write) outputs an error message.</p>
+		<p><b>Example.:</b>Output for the command <em>suffix_find</em> -c 'a.txt' 'ngz'</p>
+		<p><code>a/aa.txt =&gt; a/angz<br/>
+			a/ba.txt =&gt; a/bngz<br/>
+			ta.txt =&gt; tngz
+		</code></p>
+		<p><em>Requirements:</em> Program block for filesystem traversal/file lookup must not repeat in the code.</p>
+		<p><em>Hint:</em> See commands <b>find</b>, <b>cp</b>, <b>mv</b> and <b>rm</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_4"/>
+		<p>
+		Create a script that creates a tar.gz backup of a directory provided and names it directory_name<em>NUMBER</em>.tar.gz where <em>NUMBER</em> is the minimal integer number for which the file with the same filename does not exist (you do not have to find the highest number).
+		The backup is created in a current directory or in a directory specified via commandline argument.
+		Paths in archive must be saved relatively to the directory specified (the archive must not contain the higher-level directory). Mind that the directory can be specified relatively or absolutely. Watch for proper naming when the path leads to higher-level directory (..).
+		</p>
+		<p>Use only stderr for output: print a message when the directory provided does not exist or inform about success by printing the archive name (with its path).</p>
+		<p>
+		In case a file in the backed directory cannot be read, print an error and use return value of 2. The backup task must continue.
+		</p>
+		<p><em>Hint:</em> See command <b>tar</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_5"/>
+		Create a script that counts frequency of words in text documents (arbitrary number of them) specified as script parameter(s).
+		The ordering is controlled by script parameters.
+		Script has two parameters <em>-a</em> (alphabetical) a <em>-r</em> (descending).
+		The possible ordering is:
+		<ul>
+			<li>by frequency ascending (default)</li>
+			<li>by frequency descending (parameter -r)</li>
+			<li>alphabetically ascending (parameter -a)</li>
+			<li>alphabetically descending (both parameters -a -r)</li>
+		</ul>
+		The order of parameters can change, however the parameters must precede the file name(s).
+		A word is a sequence of alphabetical characters (without punctuation) a-z and A-Z.
+		The frequency counting is not case sensitive.
+		<p>Each line should contain a word and its frequency (space separated).</p>
+		<p>If any of the files provided is unreadable or does not exist, output an error message and return an error code (not 0). Continue with processing the other file(s).</p>
+		<p><strong>Example:</strong> Output of a script with -a parameter:</p>
+		<p><code>alpha 3<br/>
+			beta 1<br/>
+			delta 2</code>
+		</p>
+		<p>or with -r parameter:</p>
+		<p><code>alpha 3<br/>
+			delta 2<br/>
+			beta 1
+		</code>
+		</p>
+		<p><em>Requirements:</em> Do not create temporary files. Algorithms for file search and count should be contained only once (same code for all sorting).
+		</p>
+		<p><em>Hint:</em> See commands <b>sort</b>, <b>uniq</b> and <b>tr</b>. It is recommended to transform all words to lowercase. Beware of the punctuation character in the input text (commas, periods, quotation marks, etc.).</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_6"/>
+		Create a script that finds all scripts in the specified directory (and subdirectories) and prints their full name with the path along with the script type(shell, perl, awk, ...).
+		If no directory is specified, use the current directory.
+		Script has two parameters: optional parameter<i>-f name</i> that allows script type filtering (Mind that when specified "-f sh", only "sh" scripts should be printed. Not the "bash" scripts.) and an optional parameter <i>-n</i> (nonrecursive) that turns off directory traversal. Arguments can be specified in any order.
+
+		<p>Scripts have a shebang (#!) on their first line followed by program name with a path. Mind that the interpreter name can be followed by parameters (that must be cut off).
+		Also cut off the interpreter path. As a script type print an interpreter name without path and without any parameters.</p>
+		<p>Output of the script is a line with full path of the script followed with space and interpreter name.</p>
+		<p>If the directory provided does not exist, print an error message.</p>
+		<p><strong>Example:</strong> An example of the script output:</p>
+		<p><code>
+			/home/student/skripty/najdi.sh bash<br/>
+			/home/student/skripty/bin/server.pl perl<br/>
+			/home/student/skripty/bin/client.pl perl
+		</code></p>
+		<p><em>Hint:</em> See commands <b>find</b> and <b>head</b>, ev. <b>sed</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_7"/>
+		<p>
+		Create a script that traverses the tar.gz file archive and in each file changes a string specified to another string. The resulting files are saved int an archive with the same name.. 
+		Script parameters: <em>input archive</em>, <em>searched word</em> and <em>target word</em>.
+		The archive contains only text files and does not have a directory structure. Also no directory structure should be in the resulting archive.		
+		</p>
+		<p>The only output is to the stderr in case the archive does not exist or is not a valid tar.gz file (do not determine by the suffix).</p>
+		<p><em>Hint:</em> See commands <b>tar</b> and <b>sed</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_8"/>
+		<p>
+		Create a script that creates dictionary.
+		The script input is a text from stdin (in case no input files are specified) or a list of text file(s) specified as script argument(s).
+		The script outputs alphabetically ordered list (one word per line) of words from the text (each word appears only once). 
+		
+		A word is a sequence of alphabetical characters (without punctuation) a-z and A-Z.
+		The case is not important.		
+		<p>If any of the files provided is does not exist, output an error message and return an error code 2 (. Continue with processing the other file(s). If no file can be read, return an error code of 3.</p>
+		
+      <p>An example output:</p>
+		<p><code>alpha<br/>
+			charlie<br/>
+			november
+		</code></p>
+		<p><em>Requirements:</em> The code for word finding can be present only once in the code.</p>
+		<p><em>Hint:</em> See commands <b>sort</b>, ev. <b>sed</b> or <b>tr</b>. It is recommended to transform all words to lowercase. Beware of the punctuation character in the input text (commas, periods, quotation marks, etc.).</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_9"/>
+		<p>Create a script for comparing two directories (recursively) and lists all differences (file names/directories present in only one directory or having different modification time or size).
+		Stick to the following format:
+		<code>
+			&lt;directory1&gt;:&lt;local_path&gt; &lt;size&gt; &lt;modification_time&gt; &lt;directory2&gt;:&lt;local_path&gt; &lt;size&gt; &lt;modification_time&gt;
+		</code>
+		<em>Size</em> is the filesize in bytes and <em>modification_time</em> is the time of last modification in the following format: "YYYY-MM-DD HH:MM". In case the file does not exist list only a directory and colon (:).
+		</p>
+		<p>
+		Directory names are the two mandatory script arguments.
+		If any of the directories does not exist, print an error message.</p>
+		<p><b>Example.:</b> Script output for comparing two directories <i>work</i> and <i>archive</i>:</p>
+		<p><code>work:a.txt 1024 2010-09-10 10:20 archive:<br/>
+			work:b.txt 20 2010-09-10 10:20 archive:b.txt 25 2010-09-10 10:20<br/>
+			work:nic.txt 100 2010-09-10 10:20 archive:nic.txt 100 2010-09-22 15:22<br/>
+			work: archive:neco.data 256 2011-01-02 10:17
+		</code></p>
+		<p><em>Hint:</em> See commands <b>find</b>, <b>stat</b>, ev. <b>diff</b>. Watch for excessive spaces in the output.</p>
+		<hr>
+      </li>
+      
+		<li>
+		<a name="BASH_10"/>
+		Create a script that traverses the directory provided (recursively) and crates a tar.gz archive of all files that conform the mask provided. Script conserves the directory structure (relative to the directory provided -- must not contain higher level directories). 
+		Script has 4 parameters:
+		An optional parameter -r that allows overwriting of an existing archive (if not specified, you must not overwrite the archive). 
+		The next argument is the directory to be traversed followed by filename mask(s) (i.e.: *.java and/or  A*txt*) and the last argument is a path to the resulting archive.
+		<p>If the resulting archive exists and the parameter -r is not specified, print an error message.
+		If the parameter -r is specified and the archive is overwritten, print a warning (stderr).
+		If the directory provided does not exist, print an error message.
+		</p>
+		<p><em>Hint:</em> See commands <b>find</b>, <b>tar</b>.</p>
+		<hr>
+		</li>
+
+		<li>
+		<a name="BASH_11"/>
+		<p>
+		Create a script for finding and checking the existence of C/C++ include files.
+		Script parameter(s) is a list of filenames (source C/C++ files).
+		The filename(s) can be preceded by any number of parameters in format <em>-Ipath</em> defining an include file search path.
+		Look for include files also in the same directory as the source file.
+		</p>
+		<p>
+		In each source file find lines containing #include &lt;file&gt; or #include "file".
+		For each file found check the existence in any of the path provided and if found, print a full path to stdout.
+		Files not found must be reported to stderr.
+		</p>
+		<p><em>Hint:</em> See commands <b>grep</b>, ev. <b>sed</b>.</p>
+		<hr>
+		</li>
+
+<!--
+<li> Vytvořte skript, který načte zadanou internetovou stránku a v ní nalezne všechny obrázky (tagy <img>).
+Tyto obrázky uložte do zadaného tarovaného a gzipovaného archivu. Skript má tedy dva parametry, první určuje web adresu stránky, druhý parametr určuje jméno a cestu vytvářeného archívu.<br/>
+
+<p>Na standartní výstup vypisujte pouze hypertextové odkazy nalezených obrázků.
+
+V případě že cesta k obrázku je neplatná vypište chybu na standardní chybový výstup.
+
+Pro načtení stránky a obrázků z internetové adresy použijte příkaz wget (více man wget).</p></li>
+-->
+
+<!--
+<li> Napište skript který na pozadí spustí množinu příkazů zadanou jako parametry skriptu. Počká až doběhne poslední skript a poté se ukončí.
+Návratová hodnota skriptu je počet procesů které vrátily nenulovou návratovou hodnotu.
+Každá chybová návratová hodnota spuštěného procesu je navích vypsána na stderr.</li>
+-->
+
+<li>
+	<a name="BASH_12"/>
+	<p>
+	Create a script that mimics the <i>grep</i> command behavior for a group of files in the directory provided (recursively) that conform the mask provided.
+	The mask can be specified in the following format: "*.c*", "image*", etc.
+	The script has 3 parameters: Searched string (a regular expression), file mask and a directory (for recursive search). Mind that each parameter should be quoted "").
+	The last parameter is optional: when not provided use current directory.
+	</p>
+	<p>
+	The three parameters can be preceded: (in any order)<br>
+	-n ... file name will be followed by a line number: &lt;file&gt;:&lt;line_no&gt;:&lt;text_found&gt;<br>
+	-v ... inverse search: list files NOT containing the string<br>
+	</p>
+	<p>Report non-existent directories, insufficient permissions to stderr.</p>
+	<p><b>Example.:</b> Output example: (searching for the string 'for', mask: '*.c*')</p>
+	<p><code>
+		src/test.cc:for (int i=0; i&lt;count; i++) {<br/>
+		src/common/functions.c:process_data(--number_of_samples); // decrease number before calling<br/>
+	</code></p>
+	<p><em>Hint:</em> See commands <b>find</b> and <b>grep</b>. An effective use of 'grep' can ease you your work.</p>
+	<hr>
+	</li>
+
+	<li>
+	<a name="BASH_13"/>
+	<p>
+	Create script for text highlighting.
+	The script reads text from stdin and outputs the text to stdout.
+	Odd parameters specify highlight color ('r' = red, 'g' = green and 'b' = blue) and even parameters searched strings (regular expressions). The number of strings searched is not limited. Do not set background color. The priority of coloring is specified by parameter order. The execution without any parameter is allowed.
+	</p>
+	<p><b>Example.:</b>Script output: parameters used: <em>r 'col[a-z]*\&gt;' g 'text' b 'reg'</em>:</p>
+	<p><code>
+		Create a script for <font color="green">text</font>highlighting.<br>
+		The script reads <font color="green">text</font> from stdin...<br>
+		Odd parameters specify <font color="red">coloring</font> ... <font color="red">color</font>) and even parameters (<font color="blue">reg</font>ular expressions).<br>
+	</code></p>
+	</li>
+	<p><em>Hint:</em> See commands <b>sed</b>, <b>echo</b>, ev. <b>grep</b>. Use the following sequence for coloring: \033[0;31;40m (see <a href="http://element.edoceo.com/howto/bash">bash coloring</a>). Look at the <em>-e</em> argument of the echo command.</p>
+
+	<hr>
+	</li>
+</ol>
+   
+</body></html>

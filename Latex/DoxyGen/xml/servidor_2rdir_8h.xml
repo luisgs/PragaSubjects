@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="servidor_2rdir_8h" kind="file">
+    <compoundname>rdir.h</compoundname>
+    <includes local="no">sys/param.h</includes>
+    <includes local="no">dirent.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">sys/socket.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">netinet/in.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">netdb.h</includes>
+    <includedby refid="rdird_01con_01fork_8c" local="yes">/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdird con fork.c</includedby>
+    <includedby refid="rdird_8c" local="yes">/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdird.c</includedby>
+    <incdepgraph>
+      <node id="15">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="14">
+        <label>stdlib.h</label>
+      </node>
+      <node id="17">
+        <label>netdb.h</label>
+      </node>
+      <node id="16">
+        <label>string.h</label>
+      </node>
+      <node id="13">
+        <label>unistd.h</label>
+      </node>
+      <node id="9">
+        <label>sys/param.h</label>
+      </node>
+      <node id="8">
+        <label>/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h</label>
+        <link refid="servidor/rdir.h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>dirent.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structmessage" prot="public">message</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="servidor_2rdir_8h_1a4b52427c1f648424f457a968b08908f9" prot="public" static="no">
+        <name>R_OPENDIR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="12" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="servidor_2rdir_8h_1abbf543a743071d23607e241eef45bf35" prot="public" static="no">
+        <name>R_READDIR</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="13" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="servidor_2rdir_8h_1ab7b374522524c3c57926adcb0d54bfbc" prot="public" static="no">
+        <name>R_CLOSEDIR</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="14" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;sys/param.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dirent.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/socket.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;netinet/in.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;netdb.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*Identificador<sp/>de<sp/>solicitud*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>R_OPENDIR<sp/><sp/>1</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>R_READDIR<sp/><sp/>2</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>R_CLOSEDIR<sp/>3</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*protocolo<sp/>entre<sp/>cliente<sp/>y<sp/>servidor*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structmessage" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structmessage" kindref="compound">message</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>code;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>filename<sp/>[PATH_MAX];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>DIR<sp/>*direct;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h"/>
+  </compounddef>
+</doxygen>

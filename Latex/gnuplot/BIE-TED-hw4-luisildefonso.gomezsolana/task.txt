@@ -1,0 +1,3 @@
+- Key should have a border.
+- Plots should be of the same colour as in the picture (i.e. plots of the same data should be of the same colour).
+- Subgraph should have a label as shown in the picture.

@@ -1,0 +1,32 @@
+
+ANALIZAR:
+---------
+Programa que analiza el fichero de salida de la pr ctica CENT-RE, con el fin
+de determinar si el formato del fichero es correcto. Este programa s¢lo
+analiza el formato y no comprueba si los valores que aparecen en el fichero
+de salida son los que se correspoden con la entrada correspondiente.
+
+USO:
+----
+        ANALIZAR <fichero>
+        <fichero>: Nombre de un fichero de salida de la pr ctica CENT-RE
+
+SALIDA:
+-------
+La salida del programa se realiza en pantalla de la siguiente forma:
+
+- Una l¡nea indicando que comienza el an lisis del fichero:
+    ANALIZANDO '<fichero>'
+   
+- Por cada error encontrado aparecer  un mensaje indicando el n£mero de la
+  l¡nea incorrecta y una explicaci¢n del error encontrado:
+    [n]: <explicaci¢n del error>
+
+- Al final se mostrar  un mensaje indicando el final del an lisis:
+    FIN DE FICHERO
+
+NOTA:
+-----
+Si el fichero no tiene errores aparecer n £nicamente dos l¡neas:
+  ANALIZANDO '<fichero>'
+  FIN DE FICHERO

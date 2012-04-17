@@ -1,0 +1,9 @@
+ASR "sala01" 010 10
+ACL 11111111A "cliente01" "001, Calle de cliente 01"
+ARE "Reunion 01" 008 02-01-2010 10:00 02-06-2010 12:00 11111111A
+MRD 02-01-2010
+MOS "sala01" 01-2010
+
+
+
+

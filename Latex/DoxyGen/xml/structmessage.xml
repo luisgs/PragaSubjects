@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structmessage" kind="struct" prot="public">
+    <compoundname>message</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmessage_1af12833636060660b9a317e3c018f4c93" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int message::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="18" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmessage_1a9abc84247f064635cdfafa2bf557e3b9" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char message::filename[PATH_MAX]</definition>
+        <argsstring>[PATH_MAX]</argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="19" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmessage_1aec59f1161ed9ab90bbab7a1fd282014a" prot="public" static="no" mutable="no">
+        <type>DIR *</type>
+        <definition>DIR* message::direct</definition>
+        <argsstring></argsstring>
+        <name>direct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="20" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmessage_1ac1a513a448332828e26580b7d3fd4966" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int message::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="21" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" line="17" bodyfile="/home/luisgs/Documentos/Universidad/SOD/PracticaSOD_sockets/SOD/RDIR.2008/con_estado_sockets/servidor/rdir.h" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structmessage_1af12833636060660b9a317e3c018f4c93" prot="public" virt="non-virtual"><scope>message</scope><name>code</name></member>
+      <member refid="structmessage_1aec59f1161ed9ab90bbab7a1fd282014a" prot="public" virt="non-virtual"><scope>message</scope><name>direct</name></member>
+      <member refid="structmessage_1ac1a513a448332828e26580b7d3fd4966" prot="public" virt="non-virtual"><scope>message</scope><name>error</name></member>
+      <member refid="structmessage_1a9abc84247f064635cdfafa2bf557e3b9" prot="public" virt="non-virtual"><scope>message</scope><name>filename</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

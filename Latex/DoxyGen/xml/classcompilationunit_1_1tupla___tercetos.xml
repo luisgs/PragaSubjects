@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1tupla___tercetos" kind="class" prot="package">
+    <compoundname>compilationunit::tupla_Tercetos</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1tupla___tercetos_1ae99f70b8b071c861f34e05b76aebe4c8" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String compilationunit.tupla_Tercetos.terceto</definition>
+        <argsstring></argsstring>
+        <name>terceto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="4" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1tupla___tercetos_1a6b777961ad8adbbee973aaef921af715" prot="package" static="no" mutable="no">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.tupla_Tercetos.ambito_actual</definition>
+        <argsstring></argsstring>
+        <name>ambito_actual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="5" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1tupla___tercetos_1aacf03073ed504f4eaba6243b5f8550c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.tupla_Tercetos.tupla_Tercetos</definition>
+        <argsstring>(TablaSimbolos ambito_actual, String terceto)</argsstring>
+        <name>tupla_Tercetos</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+          <declname>ambito_actual</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>terceto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="7" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1tupla___tercetos_1a92cb26a621ba202e71d8a2047ef4363e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+        <definition>TablaSimbolos compilationunit.tupla_Tercetos.GetAmbitoActual</definition>
+        <argsstring>()</argsstring>
+        <name>GetAmbitoActual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="12" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1tupla___tercetos_1aacbe978aa8e0c599a02fbfc92bcfe306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String compilationunit.tupla_Tercetos.GetTerceto</definition>
+        <argsstring>()</argsstring>
+        <name>GetTerceto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="17" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1tupla___tercetos_1ad6fd283c7244070c8057a596e724b77c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.tupla_Tercetos.SetAmbitoActual</definition>
+        <argsstring>(TablaSimbolos ambito)</argsstring>
+        <name>SetAmbitoActual</name>
+        <param>
+          <type><ref refid="classcompilationunit_1_1_tabla_simbolos" kindref="compound">TablaSimbolos</ref></type>
+          <declname>ambito</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="22" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classcompilationunit_1_1tupla___tercetos_1a27dec7431d06b77a6124d95c141488bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void compilationunit.tupla_Tercetos.SetTerceto</definition>
+        <argsstring>(String terceto)</argsstring>
+        <name>SetTerceto</name>
+        <param>
+          <type>String</type>
+          <declname>terceto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="26" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="153">
+        <label>compilationunit.TablaSimbolos</label>
+        <link refid="classcompilationunit_1_1_tabla_simbolos"/>
+        <childnode refid="154" relation="usage">
+          <edgelabel>tabla</edgelabel>
+        </childnode>
+        <childnode refid="155" relation="usage">
+          <edgelabel>simbolo_asociado</edgelabel>
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>ambito_padre</edgelabel>
+        </childnode>
+      </node>
+      <node id="152">
+        <label>compilationunit.tupla_Tercetos</label>
+        <link refid="classcompilationunit_1_1tupla___tercetos"/>
+        <childnode refid="153" relation="usage">
+          <edgelabel>ambito_actual</edgelabel>
+        </childnode>
+      </node>
+      <node id="154">
+        <label>Vector</label>
+      </node>
+      <node id="155">
+        <label>compilationunit.Simbolo</label>
+        <link refid="classcompilationunit_1_1_simbolo"/>
+        <childnode refid="154" relation="usage">
+          <edgelabel>atributos</edgelabel>
+          <edgelabel>parametros</edgelabel>
+          <edgelabel>valor</edgelabel>
+        </childnode>
+        <childnode refid="155" relation="usage">
+          <edgelabel>clase_perteneciente</edgelabel>
+          <edgelabel>clase_devuelta</edgelabel>
+          <edgelabel>objeto_perteneciente</edgelabel>
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>ambito_asociado</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" line="3" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/tupla_Tercetos.java" bodystart="3" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1a6b777961ad8adbbee973aaef921af715" prot="package" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>ambito_actual</name></member>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1a92cb26a621ba202e71d8a2047ef4363e" prot="public" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>GetAmbitoActual</name></member>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1aacbe978aa8e0c599a02fbfc92bcfe306" prot="public" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>GetTerceto</name></member>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1ad6fd283c7244070c8057a596e724b77c" prot="public" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>SetAmbitoActual</name></member>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1a27dec7431d06b77a6124d95c141488bb" prot="public" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>SetTerceto</name></member>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1ae99f70b8b071c861f34e05b76aebe4c8" prot="package" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>terceto</name></member>
+      <member refid="classcompilationunit_1_1tupla___tercetos_1aacf03073ed504f4eaba6243b5f8550c3" prot="public" virt="non-virtual"><scope>compilationunit::tupla_Tercetos</scope><name>tupla_Tercetos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

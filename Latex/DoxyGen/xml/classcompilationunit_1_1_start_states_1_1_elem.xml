@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classcompilationunit_1_1_start_states_1_1_elem" kind="class" prot="private">
+    <compoundname>compilationunit::StartStates::Elem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_start_states_1_1_elem_1a3b8dbf909bcd52e46b9b24779bdda685" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.StartStates.Elem.key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="228" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcompilationunit_1_1_start_states_1_1_elem_1ac25639cf2247486d0c8587667088cdfd" prot="public" static="no" mutable="no">
+        <type>Elem</type>
+        <definition>Elem compilationunit.StartStates.Elem.next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="229" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcompilationunit_1_1_start_states_1_1_elem_1a01127b013dd261ed47606ddfd100176b" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int compilationunit.StartStates.Elem.val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="228" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcompilationunit_1_1_start_states_1_1_elem_1a3aba0ae27ecb37a0fc532e4a1f4818b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>compilationunit.StartStates.Elem.Elem</definition>
+        <argsstring>(int key, int val)</argsstring>
+        <name>Elem</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="230" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="230" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="86">
+        <label>compilationunit.StartStates.Elem</label>
+        <childnode refid="86" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" line="227" bodyfile="/home/luisgs/Documentos/CompiLuTor/CocoNuestro/src/compilationunit/Scanner.java" bodystart="227" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classcompilationunit_1_1_start_states_1_1_elem_1a3aba0ae27ecb37a0fc532e4a1f4818b2" prot="public" virt="non-virtual"><scope>compilationunit::StartStates::Elem</scope><name>Elem</name></member>
+      <member refid="classcompilationunit_1_1_start_states_1_1_elem_1a3b8dbf909bcd52e46b9b24779bdda685" prot="public" virt="non-virtual"><scope>compilationunit::StartStates::Elem</scope><name>key</name></member>
+      <member refid="classcompilationunit_1_1_start_states_1_1_elem_1ac25639cf2247486d0c8587667088cdfd" prot="public" virt="non-virtual"><scope>compilationunit::StartStates::Elem</scope><name>next</name></member>
+      <member refid="classcompilationunit_1_1_start_states_1_1_elem_1a01127b013dd261ed47606ddfd100176b" prot="package" virt="non-virtual"><scope>compilationunit::StartStates::Elem</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
